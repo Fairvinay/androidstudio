@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">JwellSuite</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="not_registered">Not Registered</string>
+    <string name="already_register">Already Registered</string>
+    <string name="register">Register</string>
+    <string name="welcome_user">Welcome </string>
+
+    <string name="take_barcode_picture">Take Barcode Picture</string>
+    <string name="scan_barcode">Scan Barcode</string>
+    <string name="open_camera">OPEN CAMERA</string>
+    <string name="send_email">SEND EMAIL</string>
+
+</resources>
