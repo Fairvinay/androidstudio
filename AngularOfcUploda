@@ -1,0 +1,13 @@
+Angular server running on Local Persoanl Latop 
+
+can be accessed using ng serve -host 0.0.0.0
+over the router on the any other (ofc) laptop for access
+you can send all the files uplaod usign Angular local PC laptop IP and 
+upload files 
+
+only the nodejs program if running on Sockte ios is blcoked -- here there is not limkt 
+
+further there is limit to handle the upload from Http max 200MB 
+
+
+https://www.shabang.dev/angular-13-file-upload-formdata
