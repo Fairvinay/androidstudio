@@ -1,0 +1,19 @@
+https://edwin.baculsoft.com/2021/03/how-to-encrypt-and-decrypt-password-on-keycloak-or-red-hat-sso/
+
+curl -L -X POST 'http://localhost:8080/auth/realms/whatever-realm/protocol/openid-connect/token' \
+-H 'Content-Type: application/x-www-form-urlencoded' \
+--data-urlencode 'client_id=clientid-02' \
+--data-urlencode 'grant_type=password' \
+--data-urlencode 'client_secret=4ddddab7-884f-4bb3-a403-660cf89ff5f2' \
+--data-urlencode 'scope=openid' \
+--data-urlencode 'username=edw' \
+--data-urlencode 'password=AA=='
+
+curl -L -X POST 'http://localhost:8080/auth/realms/whatever-realm/protocol/openid-connect/token' \
+-H 'Content-Type: application/x-www-form-urlencoded' \
+--data-urlencode 'client_id=clientid-02' \
+--data-urlencode 'grant_type=password' \
+--data-urlencode 'client_secret=4ddddab7-884f-4bb3-a403-660cf89ff5f2' \
+--data-urlencode 'scope=openid' \
+--data-urlencode 'username=edw' \
+--data-urlencode 'password=1'
