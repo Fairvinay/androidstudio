@@ -17,7 +17,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
-
+import com.jwell.suite.R;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -40,6 +40,8 @@ public class HomeActivity extends AppCompatActivity {
             }
         }
     };
+    private long pressedTime;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -64,6 +66,29 @@ public class HomeActivity extends AppCompatActivity {
         mButtonScanQR.setOnClickListener(getScanQRListener());
         mButtonBarCodeQR.setOnClickListener(getScanQRListener());
     }
+
+
+    @Override
+    public void onBackPressed() {
+
+        //webView.goBack();
+        // Toast.makeText(MainActivity.this,"Webview Can Go Back ", Toast.LENGTH_SHORT).show();
+        if (pressedTime + 2000 > System.currentTimeMillis()) {
+            super.onBackPressed();
+            Intent i = new Intent(getApplicationContext(), MainActivity.class);
+            i.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
+            startActivity(i);
+            finish();
+
+        } else {
+            Toast.makeText(getBaseContext(), "Press back again to exit", Toast.LENGTH_SHORT).show();
+        }
+        pressedTime = System.currentTimeMillis();
+
+
+    }
+
+
     public View.OnClickListener  getScanQRListener() {
 
         return new View.OnClickListener() {

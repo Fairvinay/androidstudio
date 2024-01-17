@@ -7,13 +7,15 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
+import com.jwell.suite.R;
 public class EmailActivity extends AppCompatActivity implements View.OnClickListener {
 
     EditText inSubject, inBody;
     TextView txtEmailAddress;
     Button btnSendEmail;
-
+    private long pressedTime;
 
 
     @Override
@@ -46,6 +48,26 @@ public class EmailActivity extends AppCompatActivity implements View.OnClickList
                 startActivity(Intent.createChooser(intent, "Send Email"));
             }
         });
+    }
+
+    @Override
+    public void onBackPressed() {
+
+        //webView.goBack();
+        // Toast.makeText(MainActivity.this,"Webview Can Go Back ", Toast.LENGTH_SHORT).show();
+        if (pressedTime + 2000 > System.currentTimeMillis()) {
+            super.onBackPressed();
+           // Intent i = new Intent(getApplicationContext(), MainActivity.class);
+            //i.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
+            //startActivity(i);
+            finish();
+
+        } else {
+            Toast.makeText(getBaseContext(), "Press back again to exit", Toast.LENGTH_SHORT).show();
+        }
+        pressedTime = System.currentTimeMillis();
+
+
     }
 
     @Override

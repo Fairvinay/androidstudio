@@ -6,11 +6,13 @@
     <string name="not_registered">Not Registered</string>
     <string name="already_register">Already Registered</string>
     <string name="register">Register</string>
-    <string name="welcome_user">Welcome </string>
+    <string name="welcome_user">Hi </string>
+    <string name="your_file">pic.png </string>
 
     <string name="take_barcode_picture">Take Barcode Picture</string>
     <string name="scan_barcode">Scan Barcode</string>
     <string name="open_camera">OPEN CAMERA</string>
+    <string name="scan_using_pic">SCAN Externally</string>
     <string name="send_email">SEND EMAIL</string>
 
 </resources>

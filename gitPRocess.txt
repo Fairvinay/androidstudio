@@ -1,0 +1,11 @@
+Having trouble pulling updates from master? (fatal: coudn't find remote ref master)
+
+Try the following to fix your remote/upstream references:
+
+git pull origin
+git checkout -b main
+git branch main -u origin/main
+git remote set-head origin main
+git branch --set-upstream-to=origin/main main
+git branch -d master
+git branch -d -r origin/master

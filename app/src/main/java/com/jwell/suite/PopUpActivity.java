@@ -1,16 +1,20 @@
 package com.jwell.suite;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.DisplayMetrics;
 import android.view.View;
 import android.widget.TextView;
 import android.app.AlertDialog.Builder;
 import android.content.DialogInterface;
+import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 public class PopUpActivity extends AppCompatActivity {
- // ttps://www.youtube.com/watch?v=fn5OlqQuOCk
+    private long pressedTime;
+
+    // ttps://www.youtube.com/watch?v=fn5OlqQuOCk
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -29,6 +33,29 @@ public class PopUpActivity extends AppCompatActivity {
         getWindow().setLayout((int)(width*.5), (int)(height*.1));
 
     }
+
+    @Override
+    public void onBackPressed() {
+
+        //webView.goBack();
+        // Toast.makeText(MainActivity.this,"Webview Can Go Back ", Toast.LENGTH_SHORT).show();
+        if (pressedTime + 2000 > System.currentTimeMillis()) {
+            super.onBackPressed();
+            //Intent i = new Intent(getApplicationContext(), MainActivity.class);
+           // i.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
+            //startActivity(i);
+            finish();
+
+        } else {
+            Toast.makeText(getBaseContext(), "Press back again to exit", Toast.LENGTH_SHORT).show();
+        }
+        pressedTime = System.currentTimeMillis();
+
+
+    }
+
+
+
 }
 /* showing Alert Dialog
 https://stackoverflow.com/questions/17264600/surfaceview-inside-dialog-or-activity-with-theme-dialog-has-layout-glitch

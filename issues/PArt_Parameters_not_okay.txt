@@ -1,0 +1,103 @@
+-------- beginning of crash
+2024-01-15 06:36:52.912 10624-10624 AndroidRuntime          com.jwell.suite                      D  Shutting down VM
+2024-01-15 06:36:52.916 10624-10624 AndroidRuntime          com.jwell.suite                      E  FATAL EXCEPTION: main
+                                                                                                    Process: com.jwell.suite, PID: 10624
+                                                                                                    java.lang.IllegalArgumentException: @Part parameters using the MultipartBody.Part must not include a part name in the annotation. (parameter #1)
+                                                                                                        for method ServiceInterface.postImage
+                                                                                                    	at retrofit2.Utils.methodError(Utils.java:54)
+                                                                                                    	at retrofit2.Utils.methodError(Utils.java:43)
+                                                                                                    	at retrofit2.Utils.parameterError(Utils.java:64)
+                                                                                                    	at retrofit2.RequestFactory$Builder.parseParameterAnnotation(RequestFactory.java:716)
+                                                                                                    	at retrofit2.RequestFactory$Builder.parseParameter(RequestFactory.java:325)
+                                                                                                    	at retrofit2.RequestFactory$Builder.build(RequestFactory.java:206)
+                                                                                                    	at retrofit2.RequestFactory.parseAnnotations(RequestFactory.java:67)
+                                                                                                    	at retrofit2.ServiceMethod.parseAnnotations(ServiceMethod.java:26)
+                                                                                                    	at retrofit2.Retrofit.loadServiceMethod(Retrofit.java:202)
+                                                                                                    	at retrofit2.Retrofit$1.invoke(Retrofit.java:160)
+                                                                                                    	at java.lang.reflect.Proxy.invoke(Proxy.java:1006)
+                                                                                                    	at $Proxy0.postImage(Unknown Source)
+                                                                                                    	at com.jwell.suite.PictureBarcodeActivity.onClick(PictureBarcodeActivity.java:236)
+                                                                                                    	at android.view.View.performClick(View.java:7339)
+                                                                                                    	at android.widget.TextView.performClick(TextView.java:14275)
+                                                                                                    	at com.google.android.material.button.MaterialButton.performClick(MaterialButton.java:1218)
+                                                                                                    	at android.view.View.performClickInternal(View.java:7305)
+                                                                                                    	at android.view.View.access$3200(View.java:846)
+                                                                                                    	at android.view.View$PerformClick.run(View.java:27787)
+                                                                                                    	at android.os.Handler.handleCallback(Handler.java:873)
+                                                                                                    	at android.os.Handler.dispatchMessage(Handler.java:99)
+                                                                                                    	at android.os.Looper.loop(Looper.java:214)
+                                                                                                    	at android.app.ActivityThread.main(ActivityThread.java:7078)
+                                                                                                    	at java.lang.reflect.Method.invoke(Native Method)
+                                                                                                    	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:494)
+                                                                                                    	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:965)
+2024-01-15 06:36:52.943 10624-10624 Process                 com.jwell.suite                      I  Sending signal. PID: 10624 SIG: 9
+---------------------------- PROCESS ENDED (10624) for package com.jwell.suite ----------------------------
+2024-01-15 06:36:53.104  3103-3236  InputDispatcher         system_server                        E  channel '4803085 com.jwell.suite/com.jwell.suite.MainActivity (server)' ~ Channel is unrecoverably broken and will be disposed!
+2024-01-15 06:36:53.104  3103-3236  InputDispatcher         system_server                        E  channel '5a7fad9 com.jwell.suite/com.jwell.suite.RegisterActivity (server)' ~ Channel is unrecoverably broken and will be disposed!
+2024-01-15 06:36:53.104  3103-3236  InputDispatcher         system_server                        E  channel '36b9781 com.jwell.suite/com.jwell.suite.HomeActivity (server)' ~ Channel is unrecoverably broken and will be disposed!
+2024-01-15 06:36:53.110  3103-3236  InputDispatcher         system_server                        E  channel '767c609 com.jwell.suite/com.jwell.suite.PictureBarcodeActivity (server)' ~ Channel is unrecoverably broken and will be disposed!
+2024-01-15 06:36:53.161  3103-3134  WindowManager           system_server                        E  RemoteException occurs on reporting focusChanged, w=Window{767c609 u0 com.jwell.suite/com.jwell.suite.PictureBarcodeActivity EXITING}
+                                                                                                    android.os.DeadObjectException
+                                                                                                    	at android.os.BinderProxy.transactNative(Native Method)
+                                                                                                    	at android.os.BinderProxy.transact(Binder.java:1145)
+                                                                                                    	at android.view.IWindow$Stub$Proxy.windowFocusChanged(IWindow.java:500)
+                                                                                                    	at com.android.server.wm.WindowState.reportFocusChangedSerialized(WindowState.java:3950)
+                                                                                                    	at com.android.server.wm.WindowManagerService$H.handleMessage(WindowManagerService.java:5486)
+                                                                                                    	at android.os.Handler.dispatchMessage(Handler.java:106)
+                                                                                                    	at android.os.Looper.loop(Looper.java:214)
+                                                                                                    	at android.os.HandlerThread.run(HandlerThread.java:65)
+                                                                                                    	at com.android.server.ServiceThread.run(ServiceThread.java:44)
+2024-01-15 06:36:53.168  3103-5050  WindowManager           system_server                        E  win=Window{767c609 u0 com.jwell.suite/com.jwell.suite.PictureBarcodeActivity EXITING} destroySurfaces: appStopped=false win.mWindowRemovalAllowed=true win.mRemoveOnExit=true win.mViewVisibility=0 caller=com.android.server.wm.AppWindowToken.destroySurfaces:888 com.android.server.wm.AppWindowToken.destroySurfaces:869 com.android.server.wm.WindowState.onExitAnimationDone:5443 com.android.server.wm.-$$Lambda$01bPtngJg5AqEoOWfW3rWfV7MH4.accept:2 java.util.ArrayList.forEach:1262 com.android.server.wm.AppWindowToken.onAnimationFinished:2421 com.android.server.wm.AppWindowToken.setVisibility:552 
+---------------------------- PROCESS STARTED (13217) for package com.jwell.suite ----------------------------
+2024-01-15 06:36:54.838 13217-13217 com.jwell.suit          com.jwell.suite                      W  Accessing hidden field Landroid/os/Trace;->TRACE_TAG_APP:J (light greylist, reflection)
+2024-01-15 06:36:54.839 13217-13217 com.jwell.suit          com.jwell.suite                      W  Accessing hidden method Landroid/os/Trace;->isTagEnabled(J)Z (light greylist, reflection)
+2024-01-15 06:36:55.150 13217-13217 AppCompatDelegate       com.jwell.suite                      D  Checking for metadata for AppLocalesMetadataHolderService : Service not found
+2024-01-15 06:36:55.249 13217-13217 com.jwell.suit          com.jwell.suite                      W  Accessing hidden field Landroid/graphics/Insets;->left:I (light greylist, linking)
+2024-01-15 06:36:55.250 13217-13217 com.jwell.suit          com.jwell.suite                      W  Accessing hidden field Landroid/graphics/Insets;->top:I (light greylist, linking)
+2024-01-15 06:36:55.250 13217-13217 com.jwell.suit          com.jwell.suite                      W  Accessing hidden field Landroid/graphics/Insets;->right:I (light greylist, linking)
+2024-01-15 06:36:55.250 13217-13217 com.jwell.suit          com.jwell.suite                      W  Accessing hidden field Landroid/graphics/Insets;->bottom:I (light greylist, linking)
+2024-01-15 06:36:55.314 13217-13217 DecorView               com.jwell.suite                      I  createDecorCaptionView >> DecorView@2ba8c94[], isFloating: false, isApplication: true, hasWindowDecorCaption: false, hasWindowControllerCallback: true
+2024-01-15 06:36:55.415 13217-13217 com.jwell.suit          com.jwell.suite                      W  Accessing hidden field Landroid/view/WindowInsets;->CONSUMED:Landroid/view/WindowInsets; (light greylist, reflection)
+2024-01-15 06:36:55.597 13217-13217 com.jwell.suit          com.jwell.suite                      W  Accessing hidden method Landroid/view/View;->computeFitSystemWindows(Landroid/graphics/Rect;Landroid/graphics/Rect;)Z (light greylist, reflection)
+2024-01-15 06:36:55.602 13217-13217 com.jwell.suit          com.jwell.suite                      W  Accessing hidden method Landroid/view/ViewGroup;->makeOptionalFitsSystemWindows()V (light greylist, reflection)
+2024-01-15 06:36:55.798 13217-13217 com.jwell.suit          com.jwell.suite                      W  Accessing hidden method Landroid/graphics/FontFamily;-><init>()V (light greylist, reflection)
+2024-01-15 06:36:55.798 13217-13217 com.jwell.suit          com.jwell.suite                      W  Accessing hidden method Landroid/graphics/FontFamily;->addFontFromAssetManager(Landroid/content/res/AssetManager;Ljava/lang/String;IZIII[Landroid/graphics/fonts/FontVariationAxis;)Z (light greylist, reflection)
+2024-01-15 06:36:55.798 13217-13217 com.jwell.suit          com.jwell.suite                      W  Accessing hidden method Landroid/graphics/FontFamily;->addFontFromBuffer(Ljava/nio/ByteBuffer;I[Landroid/graphics/fonts/FontVariationAxis;II)Z (light greylist, reflection)
+2024-01-15 06:36:55.798 13217-13217 com.jwell.suit          com.jwell.suite                      W  Accessing hidden method Landroid/graphics/FontFamily;->freeze()Z (light greylist, reflection)
+2024-01-15 06:36:55.799 13217-13217 com.jwell.suit          com.jwell.suite                      W  Accessing hidden method Landroid/graphics/FontFamily;->abortCreation()V (light greylist, reflection)
+2024-01-15 06:36:55.800 13217-13217 com.jwell.suit          com.jwell.suite                      W  Accessing hidden method Landroid/graphics/Typeface;->createFromFamiliesWithDefault([Landroid/graphics/FontFamily;Ljava/lang/String;II)Landroid/graphics/Typeface; (light greylist, reflection)
+2024-01-15 06:36:56.164 13217-13217 OpenGLRenderer          com.jwell.suite                      D  Skia GL Pipeline
+2024-01-15 06:36:56.175 13217-13217 EmergencyMode           com.jwell.suite                      D  [EmergencyManager] android createPackageContext successful
+2024-01-15 06:36:56.216 13217-13217 InputTransport          com.jwell.suite                      D  Input channel constructed: fd=60
+2024-01-15 06:36:56.218 13217-13217 ViewRootIm...eActivity] com.jwell.suite                      D  setView = DecorView@2ba8c94[HomeActivity] TM=true MM=false
+2024-01-15 06:36:56.222 13217-13217 Choreographer           com.jwell.suite                      I  Skipped 80 frames!  The application may be doing too much work on its main thread.
+2024-01-15 06:36:56.363 13217-13217 ViewRootIm...eActivity] com.jwell.suite                      D  Relayout returned: old=[0,0][720,1280] new=[0,0][720,1280] result=0x7 surface={true 3773245440} changed=true
+2024-01-15 06:36:56.393 13217-13272 ConfigStore             com.jwell.suite                      I  android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasWideColorDisplay retrieved: 0
+2024-01-15 06:36:56.394 13217-13272 ConfigStore             com.jwell.suite                      I  android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasHDRDisplay retrieved: 0
+2024-01-15 06:36:56.394 13217-13272 OpenGLRenderer          com.jwell.suite                      I  Initialized EGL, version 1.4
+2024-01-15 06:36:56.394 13217-13272 OpenGLRenderer          com.jwell.suite                      D  Swap behavior 2
+2024-01-15 06:36:56.412 13217-13272 mali_winsys             com.jwell.suite                      D  EGLint new_window_surface(egl_winsys_display *, void *, EGLSurface, EGLConfig, egl_winsys_surface **, EGLBoolean) returns 0x3000,  [720x1280]-format:1
+2024-01-15 06:36:56.412 13217-13272 OpenGLRenderer          com.jwell.suite                      D  eglCreateWindowSurface = 0xe0e03300, 0xe0e72808
+2024-01-15 06:36:56.618 13217-13217 ViewRootIm...eActivity] com.jwell.suite                      D  MSG_RESIZED: frame=[0,0][720,1280] ci=[0,42][0,0] vi=[0,42][0,0] or=1
+2024-01-15 06:36:56.619 13217-13217 ViewRootIm...eActivity] com.jwell.suite                      D  MSG_WINDOW_FOCUS_CHANGED 1 1
+2024-01-15 06:36:56.632 13217-13217 InputMethodManager      com.jwell.suite                      D  prepareNavigationBarInfo() DecorView@2ba8c94[HomeActivity]
+2024-01-15 06:36:56.632 13217-13217 InputMethodManager      com.jwell.suite                      D  getNavigationBarColor() -855310
+2024-01-15 06:36:56.652 13217-13217 InputMethodManager      com.jwell.suite                      D  prepareNavigationBarInfo() DecorView@2ba8c94[HomeActivity]
+2024-01-15 06:36:56.652 13217-13217 InputMethodManager      com.jwell.suite                      D  getNavigationBarColor() -855310
+2024-01-15 06:36:56.652 13217-13217 InputMethodManager      com.jwell.suite                      V  Starting input: tba=com.jwell.suite ic=null mNaviBarColor -855310 mIsGetNaviBarColorSuccess true , NavVisible : true , NavTrans : false
+2024-01-15 06:36:56.653 13217-13217 InputMethodManager      com.jwell.suite                      D  startInputInner - Id : 0
+2024-01-15 06:36:56.653 13217-13217 InputMethodManager      com.jwell.suite                      I  startInputInner - mService.startInputOrWindowGainedFocus
+2024-01-15 06:36:56.663 13217-13263 InputTransport          com.jwell.suite                      D  Input channel constructed: fd=69
+2024-01-15 06:36:56.688 13217-13217 com.jwell.suit          com.jwell.suite                      W  Accessing hidden method Landroid/os/Trace;->asyncTraceBegin(JLjava/lang/String;I)V (light greylist, reflection)
+2024-01-15 06:36:56.688 13217-13217 com.jwell.suit          com.jwell.suite                      W  Accessing hidden method Landroid/os/Trace;->asyncTraceEnd(JLjava/lang/String;I)V (light greylist, reflection)
+2024-01-15 06:36:56.689 13217-13217 com.jwell.suit          com.jwell.suite                      W  Accessing hidden method Landroid/os/Trace;->traceCounter(JLjava/lang/String;I)V (light greylist, reflection)
+2024-01-15 06:36:56.694 13217-13217 InputMethodManager      com.jwell.suite                      D  prepareNavigationBarInfo() DecorView@2ba8c94[HomeActivity]
+2024-01-15 06:36:56.694 13217-13217 InputMethodManager      com.jwell.suite                      D  getNavigationBarColor() -855310
+2024-01-15 06:36:56.694 13217-13217 InputMethodManager      com.jwell.suite                      V  Starting input: tba=com.jwell.suite ic=null mNaviBarColor -855310 mIsGetNaviBarColorSuccess true , NavVisible : true , NavTrans : false
+2024-01-15 06:36:56.695 13217-13217 InputMethodManager      com.jwell.suite                      D  startInputInner - Id : 0
+2024-01-15 06:36:56.809  3103-3184  WindowManager           system_server                        E  win=Window{5f033b0 u0 Splash Screen com.jwell.suite EXITING} destroySurfaces: appStopped=false win.mWindowRemovalAllowed=true win.mRemoveOnExit=true win.mViewVisibility=0 caller=com.android.server.wm.AppWindowToken.destroySurfaces:888 com.android.server.wm.AppWindowToken.destroySurfaces:869 com.android.server.wm.WindowState.onExitAnimationDone:5443 com.android.server.wm.WindowStateAnimator.onAnimationFinished:319 com.android.server.wm.WindowState.onAnimationFinished:5865 com.android.server.wm.-$$Lambda$yVRF8YoeNdTa8GR1wDStVsHu8xM.run:2 com.android.server.wm.SurfaceAnimator.lambda$getFinishedCallback$0:100 
+2024-01-15 06:37:01.653 13217-13303 ProfileInstaller        com.jwell.suite                      D  Installing profile for com.jwell.suite
+2024-01-15 06:37:07.157 13217-13217 ViewRootIm...eActivity] com.jwell.suite                      D  ViewPostIme pointer 0
+2024-01-15 06:37:07.381 13217-13217 ViewRootIm...eActivity] com.jwell.suite                      D  ViewPostIme pointer 1
+2024-01-15 06:37:08.461 13217-13217 ViewRootIm...eActivity] com.jwell.suite                      D  ViewPostIme pointer 0
+2024-01-15 06:37:08.799 13217-13217 ViewRootIm...eActivity] com.jwell.suite                      D  ViewPostIme pointer 1

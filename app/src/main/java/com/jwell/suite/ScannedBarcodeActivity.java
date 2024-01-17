@@ -45,6 +45,7 @@ public class ScannedBarcodeActivity extends AppCompatActivity {
     boolean isEmail = false;
     android.app.AlertDialog alertDialogAct;
 	android.app.AlertDialog.Builder alertDialog;
+    private long pressedTime;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -116,6 +117,29 @@ public class ScannedBarcodeActivity extends AppCompatActivity {
         super.onActivityResult(requestCode, resultCode, data);
     }
 
+
+    @Override
+    public void onBackPressed() {
+
+        //webView.goBack();
+        // Toast.makeText(MainActivity.this,"Webview Can Go Back ", Toast.LENGTH_SHORT).show();
+        if (pressedTime + 2000 > System.currentTimeMillis()) {
+            super.onBackPressed();
+            Intent i = new Intent(getApplicationContext(), HomeActivity.class);
+            i.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
+            startActivity(i);
+            finish();
+
+        } else {
+            Toast.makeText(getBaseContext(), "Press back again to exit", Toast.LENGTH_SHORT).show();
+        }
+        pressedTime = System.currentTimeMillis();
+
+
+    }
+
+
+
     private void initialiseDetectorsAndSources() {
         String autoFocus = "false";
         Log.v(TAGCLASS, "initialiseDetectorsAndSources=" );
@@ -185,11 +209,11 @@ public class ScannedBarcodeActivity extends AppCompatActivity {
 						 
 						 if(alertDialogAct.isShowing()){
 							 alertDialogAct.dismiss();
-					        Toast.makeText(ScannedBarcodeActivity.this, "Dialog was showing", 5).show();
+					        Toast.makeText(ScannedBarcodeActivity.this, "Dialog was showing", Toast.LENGTH_SHORT).show();
 							alertDialog = new android.app.AlertDialog.Builder(ScannedBarcodeActivity.this);
 						 }
 						 else {
-						    Toast.makeText(ScannedBarcodeActivity.this, "Dialog was not showing", 5).show();
+						    Toast.makeText(ScannedBarcodeActivity.this, "Dialog was not showing", Toast.LENGTH_SHORT).show();
 							alertDialog = new android.app.AlertDialog.Builder(ScannedBarcodeActivity.this);
 						 }
 						 alertDialog.setTitle("Scanner");
@@ -198,7 +222,7 @@ public class ScannedBarcodeActivity extends AppCompatActivity {
 										  @Override 
 								 public void onClick(DialogInterface arg0, int arg1) {
 											  //try { 
-												   Toast.makeText(ScannedBarcodeActivity.this, "ReScan", 5).show();
+												   Toast.makeText(ScannedBarcodeActivity.this, "ReScan", Toast.LENGTH_SHORT).show();
 												  txtBarcodeValue.setText("");
 												//cameraSource.start(surfaceView.getHolder());
 												/*} catch (IOException e) {
@@ -210,7 +234,7 @@ public class ScannedBarcodeActivity extends AppCompatActivity {
 						  alertDialog.setPositiveButton("Report", new DialogInterface.OnClickListener() {
 									@Override
 									public void onClick(DialogInterface arg0, int arg1) {
-										Toast.makeText(ScannedBarcodeActivity.this, "Report", 5).show();
+										Toast.makeText(ScannedBarcodeActivity.this, "Report", Toast.LENGTH_SHORT).show();
 										Intent reportPage  = new Intent (ScannedBarcodeActivity.this , ScanReportActivity.class);
 				
 										 Bundle b =new Bundle();

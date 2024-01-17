@@ -11,6 +11,7 @@ import android.content.SharedPreferences;
 import android.widget.Button;
 import java.util.HashMap;
 import java.util.Map;
+import com.jwell.suite.R;
 
 import java.io.IOException;
 import java.io.StringReader;
@@ -26,9 +27,10 @@ public class ScanReportActivity extends AppCompatActivity {
 	SharedPreferences pref;
 	 private static final String TAG = "ScanReportActivity.class";
 	 StringBuffer pairBuf = new StringBuffer();
-	ParserDocument pd ;
+	ParserDocument pd;
+	private long pressedTime;
 
-    @Override
+	@Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_scan_report);
@@ -41,7 +43,7 @@ public class ScanReportActivity extends AppCompatActivity {
 		CheckIsXML.setAppContext(ScanReportActivity.this);
 	    if(CheckIsXML.notXML(fullReport.trim()))
 		{ 
-			Toast.makeText(ScanReportActivity.this, "is not XML" , 15).show();	
+			Toast.makeText(ScanReportActivity.this, "is not XML" , Toast.LENGTH_SHORT).show();
 		}else {
 				parseXml(fullReport.trim());
 		} 
@@ -75,7 +77,31 @@ public class ScanReportActivity extends AppCompatActivity {
         };
 
     }
-	 public void parseXml(String intentData){
+
+
+	@Override
+	public void onBackPressed() {
+
+		//webView.goBack();
+		// Toast.makeText(MainActivity.this,"Webview Can Go Back ", Toast.LENGTH_SHORT).show();
+		if (pressedTime + 2000 > System.currentTimeMillis()) {
+			super.onBackPressed();
+			Intent i = new Intent(getApplicationContext(), HomeActivity.class);
+			i.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
+			startActivity(i);
+			finish();
+
+		} else {
+			Toast.makeText(getBaseContext(), "Press back again to exit", Toast.LENGTH_SHORT).show();
+		}
+		pressedTime = System.currentTimeMillis();
+
+
+	}
+
+
+
+	public void parseXml(String intentData){
 		try {
 			Toast.makeText(ScanReportActivity.this, "Parse XML Started"+intentData, Toast.LENGTH_SHORT).show();
 			XmlPullParserFactory factory = XmlPullParserFactory.newInstance();

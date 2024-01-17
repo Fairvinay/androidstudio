@@ -17,4 +17,7 @@
        <item name="android:windowIsTranslucent">true</item>
         <item name="android:windowCloseOnTouchOutside">true</item>
     </style>
+    <style name="Theme.JwellSuite.NoActionBarLaunch">
+        <item name="android:background">@drawable/splash</item>
+    </style>
 </resources>
