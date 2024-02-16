@@ -1,0 +1,2866 @@
+{
+    "limit": 20,
+    "offset": 0,
+    "count": 14,
+    "total": 14,
+    "results": [
+        {
+            "id": "45889da7-2560-491b-9b4a-f0d67fb9ef50",
+            "version": 25,
+            "versionModifiedAt": "2023-08-28T07:19:10.052Z",
+            "lastMessageSequenceNumber": 20,
+            "createdAt": "2023-08-16T11:25:19.968Z",
+            "lastModifiedAt": "2023-08-28T07:19:10.052Z",
+            "lastModifiedBy": {
+                "isPlatformClient": true
+            },
+            "createdBy": {
+                "isPlatformClient": true
+            },
+            "productType": {
+                "typeId": "product-type",
+                "id": "2035862d-c01c-4087-9bfe-bf67254cf24f"
+            },
+            "masterData": {
+                "current": {
+                    "name": {
+                        "en": "Deloitte India For Marketing"
+                    },
+                    "categories": [
+                        {
+                            "typeId": "category",
+                            "id": "d3236fbf-fb17-4b58-a414-60c2d9d559fc"
+                        }
+                    ],
+                    "categoryOrderHints": {},
+                    "slug": {
+                        "en": "Deloitte_India_For_Marketing"
+                    },
+                    "masterVariant": {
+                        "id": 3,
+                        "sku": "100003163",
+                        "key": "100003163",
+                        "prices": [
+                            {
+                                "id": "cf3367ab-6342-46bb-b1a0-1787d8d23a40",
+                                "value": {
+                                    "type": "centPrecision",
+                                    "currencyCode": "USD",
+                                    "centAmount": 7725,
+                                    "fractionDigits": 2
+                                },
+                                "key": "100003163",
+                                "country": "US"
+                            }
+                        ],
+                        "images": [
+                            {
+                                "url": "https://s3-eu-west-1.amazonaws.com/commercetools-maximilian/products/081440_1_medium.jpg||0x1121",
+                                "dimensions": {
+                                    "w": 177,
+                                    "h": 237
+                                }
+                            }
+                        ],
+                        "attributes": [
+                            {
+                                "name": "manufacturedBy",
+                                "value": "Zoetis"
+                            },
+                            {
+                                "name": "rating",
+                                "value": true
+                            }
+                        ],
+                        "assets": []
+                    },
+                    "variants": [
+                        {
+                            "id": 1,
+                            "sku": "Deloitte",
+                            "key": "Deloitte India For Marketing",
+                            "prices": [],
+                            "images": [],
+                            "attributes": [
+                                {
+                                    "name": "rating",
+                                    "value": true
+                                },
+                                {
+                                    "name": "manufacturedBy",
+                                    "value": "Zoetis"
+                                }
+                            ],
+                            "assets": []
+                        },
+                        {
+                            "id": 6,
+                            "sku": "100003164",
+                            "key": "100003164",
+                            "prices": [
+                                {
+                                    "id": "6068b474-3a8c-497c-b996-73aff280f07a",
+                                    "value": {
+                                        "type": "centPrecision",
+                                        "currencyCode": "USD",
+                                        "centAmount": 2223,
+                                        "fractionDigits": 2
+                                    },
+                                    "key": "100003164",
+                                    "country": "US"
+                                }
+                            ],
+                            "images": [
+                                {
+                                    "url": "https://s3-eu-west-1.amazonaws.com/commercetools-maximilian/products/081440_1_medium.jpg||0x1121",
+                                    "dimensions": {
+                                        "w": 177,
+                                        "h": 237
+                                    }
+                                }
+                            ],
+                            "attributes": [
+                                {
+                                    "name": "manufacturedBy",
+                                    "value": "Zoetis"
+                                },
+                                {
+                                    "name": "rating",
+                                    "value": true
+                                }
+                            ],
+                            "assets": []
+                        }
+                    ],
+                    "searchKeywords": {}
+                },
+                "staged": {
+                    "name": {
+                        "en": "Deloitte India For Marketing"
+                    },
+                    "categories": [
+                        {
+                            "typeId": "category",
+                            "id": "d3236fbf-fb17-4b58-a414-60c2d9d559fc"
+                        }
+                    ],
+                    "categoryOrderHints": {},
+                    "slug": {
+                        "en": "Deloitte_India_For_Marketing"
+                    },
+                    "masterVariant": {
+                        "id": 3,
+                        "sku": "100003163",
+                        "key": "100003163",
+                        "prices": [
+                            {
+                                "id": "cf3367ab-6342-46bb-b1a0-1787d8d23a40",
+                                "value": {
+                                    "type": "centPrecision",
+                                    "currencyCode": "USD",
+                                    "centAmount": 7725,
+                                    "fractionDigits": 2
+                                },
+                                "key": "100003163",
+                                "country": "US"
+                            }
+                        ],
+                        "images": [
+                            {
+                                "url": "https://s3-eu-west-1.amazonaws.com/commercetools-maximilian/products/081440_1_medium.jpg||0x1121",
+                                "dimensions": {
+                                    "w": 177,
+                                    "h": 237
+                                }
+                            }
+                        ],
+                        "attributes": [
+                            {
+                                "name": "manufacturedBy",
+                                "value": "Zoetis"
+                            },
+                            {
+                                "name": "rating",
+                                "value": true
+                            }
+                        ],
+                        "assets": []
+                    },
+                    "variants": [
+                        {
+                            "id": 1,
+                            "sku": "Deloitte",
+                            "key": "Deloitte India For Marketing",
+                            "prices": [],
+                            "images": [],
+                            "attributes": [
+                                {
+                                    "name": "rating",
+                                    "value": true
+                                },
+                                {
+                                    "name": "manufacturedBy",
+                                    "value": "Zoetis"
+                                }
+                            ],
+                            "assets": []
+                        },
+                        {
+                            "id": 6,
+                            "sku": "100003164",
+                            "key": "100003164",
+                            "prices": [
+                                {
+                                    "id": "6068b474-3a8c-497c-b996-73aff280f07a",
+                                    "value": {
+                                        "type": "centPrecision",
+                                        "currencyCode": "USD",
+                                        "centAmount": 2223,
+                                        "fractionDigits": 2
+                                    },
+                                    "key": "100003164",
+                                    "country": "US"
+                                }
+                            ],
+                            "images": [
+                                {
+                                    "url": "https://s3-eu-west-1.amazonaws.com/commercetools-maximilian/products/081440_1_medium.jpg||0x1121",
+                                    "dimensions": {
+                                        "w": 177,
+                                        "h": 237
+                                    }
+                                }
+                            ],
+                            "attributes": [
+                                {
+                                    "name": "manufacturedBy",
+                                    "value": "Zoetis"
+                                },
+                                {
+                                    "name": "rating",
+                                    "value": true
+                                }
+                            ],
+                            "assets": []
+                        }
+                    ],
+                    "searchKeywords": {}
+                },
+                "published": true,
+                "hasStagedChanges": false
+            },
+            "key": "Deloitte",
+            "lastVariantId": 6
+        },
+        {
+            "id": "43ce86ef-3c72-4b5d-afe6-e8707197be73",
+            "version": 38,
+            "versionModifiedAt": "2023-11-21T03:29:44.431Z",
+            "lastMessageSequenceNumber": 28,
+            "createdAt": "2023-08-16T11:30:12.908Z",
+            "lastModifiedAt": "2023-11-21T03:29:44.431Z",
+            "lastModifiedBy": {
+                "clientId": "sB6jxOAGn1KQy8IAAS08DBI1",
+                "isPlatformClient": false
+            },
+            "createdBy": {
+                "isPlatformClient": true
+            },
+            "productType": {
+                "typeId": "product-type",
+                "id": "2035862d-c01c-4087-9bfe-bf67254cf24f"
+            },
+            "masterData": {
+                "current": {
+                    "name": {
+                        "en": "DeloitteUSI India For Marketing"
+                    },
+                    "categories": [
+                        {
+                            "typeId": "category",
+                            "id": "d3236fbf-fb17-4b58-a414-60c2d9d559fc"
+                        }
+                    ],
+                    "categoryOrderHints": {},
+                    "slug": {
+                        "en": "DeloitteUSI_India_For_Marketing"
+                    },
+                    "masterVariant": {
+                        "id": 2,
+                        "sku": "100002752",
+                        "key": "100002752",
+                        "prices": [
+                            {
+                                "id": "8e40c4d7-29b0-4044-8d26-0ebf13d8be9b",
+                                "value": {
+                                    "type": "centPrecision",
+                                    "currencyCode": "USD",
+                                    "centAmount": 1125,
+                                    "fractionDigits": 2
+                                },
+                                "key": "100002752",
+                                "country": "US"
+                            }
+                        ],
+                        "images": [
+                            {
+                                "url": "https://s3-eu-west-1.amazonaws.com/commercetools-maximilian/products/081440_1_medium.jpg||0x8822",
+                                "dimensions": {
+                                    "w": 177,
+                                    "h": 237
+                                }
+                            }
+                        ],
+                        "attributes": [
+                            {
+                                "name": "manufacturedBy",
+                                "value": "Zoetis"
+                            },
+                            {
+                                "name": "rating",
+                                "value": true
+                            }
+                        ],
+                        "assets": []
+                    },
+                    "variants": [
+                        {
+                            "id": 1,
+                            "sku": "DeloitteUSI",
+                            "key": "DeloitteUSI India For Marketing",
+                            "prices": [],
+                            "images": [],
+                            "attributes": [
+                                {
+                                    "name": "rating",
+                                    "value": true
+                                },
+                                {
+                                    "name": "size",
+                                    "value": "10"
+                                },
+                                {
+                                    "name": "manufacturedBy",
+                                    "value": "Zoetis"
+                                }
+                            ],
+                            "assets": []
+                        },
+                        {
+                            "id": 5,
+                            "sku": "100002753",
+                            "key": "100002753",
+                            "prices": [
+                                {
+                                    "id": "3cb4f9df-ac6c-48b5-9d52-fe438070bf30",
+                                    "value": {
+                                        "type": "centPrecision",
+                                        "currencyCode": "USD",
+                                        "centAmount": 7654,
+                                        "fractionDigits": 2
+                                    },
+                                    "key": "100002753",
+                                    "country": "US"
+                                }
+                            ],
+                            "images": [
+                                {
+                                    "url": "https://s3-eu-west-1.amazonaws.com/commercetools-maximilian/products/081440_1_medium.jpg||0x8822",
+                                    "dimensions": {
+                                        "w": 177,
+                                        "h": 237
+                                    }
+                                }
+                            ],
+                            "attributes": [
+                                {
+                                    "name": "manufacturedBy",
+                                    "value": "Zoetis"
+                                },
+                                {
+                                    "name": "rating",
+                                    "value": true
+                                }
+                            ],
+                            "assets": []
+                        }
+                    ],
+                    "searchKeywords": {}
+                },
+                "staged": {
+                    "name": {
+                        "en": "DeloitteUSI India For Marketing"
+                    },
+                    "description": {
+                        "en": "This product update is made by Shilpa!"
+                    },
+                    "categories": [
+                        {
+                            "typeId": "category",
+                            "id": "d3236fbf-fb17-4b58-a414-60c2d9d559fc"
+                        }
+                    ],
+                    "categoryOrderHints": {},
+                    "slug": {
+                        "en": "DeloitteUSI_India_For_Marketing"
+                    },
+                    "masterVariant": {
+                        "id": 2,
+                        "sku": "100002752",
+                        "key": "100002752",
+                        "prices": [
+                            {
+                                "id": "c8986083-397a-4fa5-a69f-b5a1cfb68f6d",
+                                "value": {
+                                    "type": "centPrecision",
+                                    "currencyCode": "GBP",
+                                    "centAmount": 4000,
+                                    "fractionDigits": 2
+                                }
+                            },
+                            {
+                                "id": "00a3249b-6bb2-4e2a-81ef-d4612af78f59",
+                                "value": {
+                                    "type": "centPrecision",
+                                    "currencyCode": "USD",
+                                    "centAmount": 3100,
+                                    "fractionDigits": 2
+                                }
+                            },
+                            {
+                                "id": "6eb44fc8-84e8-44dc-8e7a-e3f834c00d0e",
+                                "value": {
+                                    "type": "centPrecision",
+                                    "currencyCode": "EUR",
+                                    "centAmount": 4000,
+                                    "fractionDigits": 2
+                                }
+                            }
+                        ],
+                        "images": [
+                            {
+                                "url": "https://s3-eu-west-1.amazonaws.com/commercetools-maximilian/products/081440_1_medium.jpg||0x8822",
+                                "dimensions": {
+                                    "w": 177,
+                                    "h": 237
+                                }
+                            }
+                        ],
+                        "attributes": [
+                            {
+                                "name": "manufacturedBy",
+                                "value": "Zoetis"
+                            },
+                            {
+                                "name": "rating",
+                                "value": true
+                            }
+                        ],
+                        "assets": []
+                    },
+                    "variants": [
+                        {
+                            "id": 1,
+                            "sku": "DeloitteUSI",
+                            "key": "DeloitteUSI India For Marketing",
+                            "prices": [
+                                {
+                                    "id": "5063d2c1-7e88-4baf-8357-22b6f264fee6",
+                                    "value": {
+                                        "type": "centPrecision",
+                                        "currencyCode": "GBP",
+                                        "centAmount": 4000,
+                                        "fractionDigits": 2
+                                    }
+                                },
+                                {
+                                    "id": "1b186381-4db4-439a-88e2-1d2bc80e7aa5",
+                                    "value": {
+                                        "type": "centPrecision",
+                                        "currencyCode": "USD",
+                                        "centAmount": 3100,
+                                        "fractionDigits": 2
+                                    }
+                                },
+                                {
+                                    "id": "25b33585-8ea1-4369-8f44-840a617c7fff",
+                                    "value": {
+                                        "type": "centPrecision",
+                                        "currencyCode": "EUR",
+                                        "centAmount": 4000,
+                                        "fractionDigits": 2
+                                    }
+                                }
+                            ],
+                            "images": [],
+                            "attributes": [
+                                {
+                                    "name": "rating",
+                                    "value": true
+                                },
+                                {
+                                    "name": "size",
+                                    "value": "10"
+                                },
+                                {
+                                    "name": "manufacturedBy",
+                                    "value": "Zoetis"
+                                }
+                            ],
+                            "assets": []
+                        },
+                        {
+                            "id": 5,
+                            "sku": "100002753",
+                            "key": "100002753",
+                            "prices": [
+                                {
+                                    "id": "3cb4f9df-ac6c-48b5-9d52-fe438070bf30",
+                                    "value": {
+                                        "type": "centPrecision",
+                                        "currencyCode": "USD",
+                                        "centAmount": 7654,
+                                        "fractionDigits": 2
+                                    },
+                                    "key": "100002753",
+                                    "country": "US"
+                                }
+                            ],
+                            "images": [
+                                {
+                                    "url": "https://s3-eu-west-1.amazonaws.com/commercetools-maximilian/products/081440_1_medium.jpg||0x8822",
+                                    "dimensions": {
+                                        "w": 177,
+                                        "h": 237
+                                    }
+                                }
+                            ],
+                            "attributes": [
+                                {
+                                    "name": "manufacturedBy",
+                                    "value": "Zoetis"
+                                },
+                                {
+                                    "name": "rating",
+                                    "value": true
+                                }
+                            ],
+                            "assets": []
+                        }
+                    ],
+                    "searchKeywords": {}
+                },
+                "published": true,
+                "hasStagedChanges": true
+            },
+            "key": "DeloitteUSI",
+            "taxCategory": {
+                "typeId": "tax-category",
+                "id": "93459be8-d0b5-4729-9b33-61850cde135c"
+            },
+            "lastVariantId": 5
+        },
+        {
+            "id": "e3fbf452-edab-48e4-8fa9-88bbaffa938b",
+            "version": 19,
+            "versionModifiedAt": "2023-08-28T07:19:10.061Z",
+            "lastMessageSequenceNumber": 15,
+            "createdAt": "2023-08-16T12:02:33.681Z",
+            "lastModifiedAt": "2023-08-28T07:19:10.061Z",
+            "lastModifiedBy": {
+                "isPlatformClient": true
+            },
+            "createdBy": {
+                "isPlatformClient": true
+            },
+            "productType": {
+                "typeId": "product-type",
+                "id": "2035862d-c01c-4087-9bfe-bf67254cf24f"
+            },
+            "masterData": {
+                "current": {
+                    "name": {
+                        "en": "DeloitteProject India For Marketing"
+                    },
+                    "categories": [
+                        {
+                            "typeId": "category",
+                            "id": "d3236fbf-fb17-4b58-a414-60c2d9d559fc"
+                        }
+                    ],
+                    "categoryOrderHints": {},
+                    "slug": {
+                        "en": "DeloitteProject_India_For_Marketing"
+                    },
+                    "masterVariant": {
+                        "id": 2,
+                        "sku": "100003171",
+                        "key": "100003171",
+                        "prices": [
+                            {
+                                "id": "9779ccf7-f94a-4a03-bee3-3e5b7f4d4782",
+                                "value": {
+                                    "type": "centPrecision",
+                                    "currencyCode": "USD",
+                                    "centAmount": 9925,
+                                    "fractionDigits": 2
+                                },
+                                "key": "100003171",
+                                "country": "US"
+                            }
+                        ],
+                        "images": [
+                            {
+                                "url": "https://s3-eu-west-1.amazonaws.com/commercetools-maximilian/products/081440_1_medium.jpg||0x1121",
+                                "dimensions": {
+                                    "w": 177,
+                                    "h": 237
+                                }
+                            }
+                        ],
+                        "attributes": [
+                            {
+                                "name": "manufacturedBy",
+                                "value": "Zoetis"
+                            },
+                            {
+                                "name": "rating",
+                                "value": true
+                            }
+                        ],
+                        "assets": []
+                    },
+                    "variants": [
+                        {
+                            "id": 1,
+                            "sku": "DeloitteProject",
+                            "key": "DeloitteProject India For Marketing",
+                            "prices": [],
+                            "images": [],
+                            "attributes": [
+                                {
+                                    "name": "rating",
+                                    "value": true
+                                },
+                                {
+                                    "name": "manufacturedBy",
+                                    "value": "Zoetis"
+                                }
+                            ],
+                            "assets": []
+                        },
+                        {
+                            "id": 5,
+                            "sku": "100003172",
+                            "key": "100003172",
+                            "prices": [
+                                {
+                                    "id": "2029d654-fb87-4b82-9c21-7ed32e48d23a",
+                                    "value": {
+                                        "type": "centPrecision",
+                                        "currencyCode": "USD",
+                                        "centAmount": 5436,
+                                        "fractionDigits": 2
+                                    },
+                                    "key": "100003172",
+                                    "country": "US"
+                                }
+                            ],
+                            "images": [
+                                {
+                                    "url": "https://s3-eu-west-1.amazonaws.com/commercetools-maximilian/products/081440_1_medium.jpg||0x1121",
+                                    "dimensions": {
+                                        "w": 177,
+                                        "h": 237
+                                    }
+                                }
+                            ],
+                            "attributes": [
+                                {
+                                    "name": "manufacturedBy",
+                                    "value": "Zoetis"
+                                },
+                                {
+                                    "name": "rating",
+                                    "value": true
+                                }
+                            ],
+                            "assets": []
+                        }
+                    ],
+                    "searchKeywords": {}
+                },
+                "staged": {
+                    "name": {
+                        "en": "DeloitteProject India For Marketing"
+                    },
+                    "categories": [
+                        {
+                            "typeId": "category",
+                            "id": "d3236fbf-fb17-4b58-a414-60c2d9d559fc"
+                        }
+                    ],
+                    "categoryOrderHints": {},
+                    "slug": {
+                        "en": "DeloitteProject_India_For_Marketing"
+                    },
+                    "masterVariant": {
+                        "id": 2,
+                        "sku": "100003171",
+                        "key": "100003171",
+                        "prices": [
+                            {
+                                "id": "9779ccf7-f94a-4a03-bee3-3e5b7f4d4782",
+                                "value": {
+                                    "type": "centPrecision",
+                                    "currencyCode": "USD",
+                                    "centAmount": 9925,
+                                    "fractionDigits": 2
+                                },
+                                "key": "100003171",
+                                "country": "US"
+                            }
+                        ],
+                        "images": [
+                            {
+                                "url": "https://s3-eu-west-1.amazonaws.com/commercetools-maximilian/products/081440_1_medium.jpg||0x1121",
+                                "dimensions": {
+                                    "w": 177,
+                                    "h": 237
+                                }
+                            }
+                        ],
+                        "attributes": [
+                            {
+                                "name": "manufacturedBy",
+                                "value": "Zoetis"
+                            },
+                            {
+                                "name": "rating",
+                                "value": true
+                            }
+                        ],
+                        "assets": []
+                    },
+                    "variants": [
+                        {
+                            "id": 1,
+                            "sku": "DeloitteProject",
+                            "key": "DeloitteProject India For Marketing",
+                            "prices": [],
+                            "images": [],
+                            "attributes": [
+                                {
+                                    "name": "rating",
+                                    "value": true
+                                },
+                                {
+                                    "name": "manufacturedBy",
+                                    "value": "Zoetis"
+                                }
+                            ],
+                            "assets": []
+                        },
+                        {
+                            "id": 5,
+                            "sku": "100003172",
+                            "key": "100003172",
+                            "prices": [
+                                {
+                                    "id": "2029d654-fb87-4b82-9c21-7ed32e48d23a",
+                                    "value": {
+                                        "type": "centPrecision",
+                                        "currencyCode": "USD",
+                                        "centAmount": 5436,
+                                        "fractionDigits": 2
+                                    },
+                                    "key": "100003172",
+                                    "country": "US"
+                                }
+                            ],
+                            "images": [
+                                {
+                                    "url": "https://s3-eu-west-1.amazonaws.com/commercetools-maximilian/products/081440_1_medium.jpg||0x1121",
+                                    "dimensions": {
+                                        "w": 177,
+                                        "h": 237
+                                    }
+                                }
+                            ],
+                            "attributes": [
+                                {
+                                    "name": "manufacturedBy",
+                                    "value": "Zoetis"
+                                },
+                                {
+                                    "name": "rating",
+                                    "value": true
+                                }
+                            ],
+                            "assets": []
+                        }
+                    ],
+                    "searchKeywords": {}
+                },
+                "published": true,
+                "hasStagedChanges": false
+            },
+            "key": "DeloitteProject",
+            "lastVariantId": 5
+        },
+        {
+            "id": "f1a9ab46-25de-467e-b9c8-b61e9ff4e6ef",
+            "version": 3,
+            "versionModifiedAt": "2023-08-28T07:12:34.259Z",
+            "lastMessageSequenceNumber": 1,
+            "createdAt": "2023-08-28T07:12:34.059Z",
+            "lastModifiedAt": "2023-08-28T07:12:34.259Z",
+            "lastModifiedBy": {
+                "isPlatformClient": true
+            },
+            "createdBy": {
+                "isPlatformClient": true
+            },
+            "productType": {
+                "typeId": "product-type",
+                "id": "2035862d-c01c-4087-9bfe-bf67254cf24f"
+            },
+            "masterData": {
+                "current": {
+                    "name": {
+                        "en": "RimadylFifth"
+                    },
+                    "categories": [
+                        {
+                            "typeId": "category",
+                            "id": "d3236fbf-fb17-4b58-a414-60c2d9d559fc"
+                        }
+                    ],
+                    "categoryOrderHints": {},
+                    "slug": {
+                        "en": "10000315_slug"
+                    },
+                    "masterVariant": {
+                        "id": 1,
+                        "sku": "10000315",
+                        "key": "RimadylFifth",
+                        "prices": [],
+                        "images": [],
+                        "attributes": [
+                            {
+                                "name": "manufacturedBy",
+                                "value": "Zoetis"
+                            },
+                            {
+                                "name": "bulletPoint",
+                                "value": "Rimadyl is indicated for the relief of pain and inflammation associated with osteoarthritis and for the control of postoperative pain associated with soft tissue and orthopedic surgeries in dogs."
+                            },
+                            {
+                                "name": "color",
+                                "value": "Clear"
+                            },
+                            {
+                                "name": "IsContainsLiquidContents",
+                                "value": true
+                            },
+                            {
+                                "name": "costPrice",
+                                "value": "64.15"
+                            },
+                            {
+                                "name": "countryOfOrigin",
+                                "value": "Italy"
+                            },
+                            {
+                                "name": "dangerousGoodsRegulations",
+                                "value": "GHS"
+                            },
+                            {
+                                "name": "directions",
+                                "value": "Rimadyl should be given with food to reduce the chance of stomach/intestinal side effects. Rimadyl is for dogs only. Do not give to cats. The recommended dosage for oral administration to dogs is 2 mg/lb of body weight daily or divided and administered as 1 mg/lb twice daily. For the control of postoperative pain  and  administer approximately 2 hours before the procedure. Always follow the dosage instructions provided by your veterinarian. If you have difficulty giving the medication  and  contact your veterinarian. This medication should only be given to the pet for which it was prescribed. For long-term use  and  use the lowest dose needed to provide relief."
+                            },
+                            {
+                                "name": "externalProductID",
+                                "value": "87219032831"
+                            },
+                            {
+                                "name": "externalProductIDType",
+                                "value": "UPC"
+                            },
+                            {
+                                "name": "FDANumber",
+                                "value": "141-111"
+                            },
+                            {
+                                "name": "fulfillmentCenterShelfLifeRed1",
+                                "value": "720"
+                            },
+                            {
+                                "name": "fulfillmentCenterShelfLifeUnit",
+                                "value": "Days"
+                            },
+                            {
+                                "name": "GHSClass",
+                                "value": "Toxic"
+                            }
+                        ],
+                        "assets": [],
+                        "availability": {
+                            "isOnStock": true,
+                            "availableQuantity": 3434,
+                            "version": 1,
+                            "id": "e87c914d-f058-4968-9cc6-db3d4146ca94"
+                        }
+                    },
+                    "variants": [],
+                    "searchKeywords": {}
+                },
+                "staged": {
+                    "name": {
+                        "en": "RimadylFifth"
+                    },
+                    "categories": [
+                        {
+                            "typeId": "category",
+                            "id": "d3236fbf-fb17-4b58-a414-60c2d9d559fc"
+                        }
+                    ],
+                    "categoryOrderHints": {},
+                    "slug": {
+                        "en": "10000315_slug"
+                    },
+                    "masterVariant": {
+                        "id": 1,
+                        "sku": "10000315",
+                        "key": "RimadylFifth",
+                        "prices": [],
+                        "images": [],
+                        "attributes": [
+                            {
+                                "name": "manufacturedBy",
+                                "value": "Zoetis"
+                            },
+                            {
+                                "name": "bulletPoint",
+                                "value": "Rimadyl is indicated for the relief of pain and inflammation associated with osteoarthritis and for the control of postoperative pain associated with soft tissue and orthopedic surgeries in dogs."
+                            },
+                            {
+                                "name": "color",
+                                "value": "Clear"
+                            },
+                            {
+                                "name": "IsContainsLiquidContents",
+                                "value": true
+                            },
+                            {
+                                "name": "costPrice",
+                                "value": "64.15"
+                            },
+                            {
+                                "name": "countryOfOrigin",
+                                "value": "Italy"
+                            },
+                            {
+                                "name": "dangerousGoodsRegulations",
+                                "value": "GHS"
+                            },
+                            {
+                                "name": "directions",
+                                "value": "Rimadyl should be given with food to reduce the chance of stomach/intestinal side effects. Rimadyl is for dogs only. Do not give to cats. The recommended dosage for oral administration to dogs is 2 mg/lb of body weight daily or divided and administered as 1 mg/lb twice daily. For the control of postoperative pain  and  administer approximately 2 hours before the procedure. Always follow the dosage instructions provided by your veterinarian. If you have difficulty giving the medication  and  contact your veterinarian. This medication should only be given to the pet for which it was prescribed. For long-term use  and  use the lowest dose needed to provide relief."
+                            },
+                            {
+                                "name": "externalProductID",
+                                "value": "87219032831"
+                            },
+                            {
+                                "name": "externalProductIDType",
+                                "value": "UPC"
+                            },
+                            {
+                                "name": "FDANumber",
+                                "value": "141-111"
+                            },
+                            {
+                                "name": "fulfillmentCenterShelfLifeRed1",
+                                "value": "720"
+                            },
+                            {
+                                "name": "fulfillmentCenterShelfLifeUnit",
+                                "value": "Days"
+                            },
+                            {
+                                "name": "GHSClass",
+                                "value": "Toxic"
+                            }
+                        ],
+                        "assets": [],
+                        "availability": {
+                            "isOnStock": true,
+                            "availableQuantity": 3434,
+                            "version": 1,
+                            "id": "e87c914d-f058-4968-9cc6-db3d4146ca94"
+                        }
+                    },
+                    "variants": [],
+                    "searchKeywords": {}
+                },
+                "published": true,
+                "hasStagedChanges": false
+            },
+            "key": "key_10000315",
+            "lastVariantId": 1
+        },
+        {
+            "id": "45acec8a-db88-40c0-8958-7bfce62d88c5",
+            "version": 3,
+            "versionModifiedAt": "2023-08-28T07:12:34.223Z",
+            "lastMessageSequenceNumber": 1,
+            "createdAt": "2023-08-28T07:12:34.069Z",
+            "lastModifiedAt": "2023-08-28T07:12:34.223Z",
+            "lastModifiedBy": {
+                "isPlatformClient": true
+            },
+            "createdBy": {
+                "isPlatformClient": true
+            },
+            "productType": {
+                "typeId": "product-type",
+                "id": "2035862d-c01c-4087-9bfe-bf67254cf24f"
+            },
+            "masterData": {
+                "current": {
+                    "name": {
+                        "en": "REVOLUTION Cat"
+                    },
+                    "categories": [
+                        {
+                            "typeId": "category",
+                            "id": "d3236fbf-fb17-4b58-a414-60c2d9d559fc"
+                        }
+                    ],
+                    "categoryOrderHints": {},
+                    "slug": {
+                        "en": "10000321_slug"
+                    },
+                    "masterVariant": {
+                        "id": 1,
+                        "sku": "10000321",
+                        "key": "REVOLUTION Cat",
+                        "prices": [],
+                        "images": [],
+                        "attributes": [
+                            {
+                                "name": "manufacturedBy",
+                                "value": "Zoetis"
+                            },
+                            {
+                                "name": "bulletPoint",
+                                "value": "Revolution kills adult fleas and prevents flea eggs from hatching for one month. It is also indicated for the prevention and control of flea infestationsand prevention of heartworm disease caused by Dirofilaria immitisand and the treatment and control of ear mite infestations. Revolution is also indicated for the treatment and control of roundworm and intestinal hookworm infections in cats. Revolution protects cats against fleasand killing adult fleas and keeping flea eggs from hatching. Unlike some other monthly flea preventatives for catsand it also provides safe protection from heartworm diseaseand roundwormsand hookworms and ear mites. Most fleas are killed within 36 hours of application. If the pet was already infested with fleas when Revolution was appliedand you may see fleas after that period of time as the immature forms of the fleas in the environment hatch."
+                            },
+                            {
+                                "name": "color",
+                                "value": "Clear"
+                            },
+                            {
+                                "name": "IsContainsLiquidContents",
+                                "value": true
+                            },
+                            {
+                                "name": "costPrice",
+                                "value": "90.7"
+                            },
+                            {
+                                "name": "countryOfOrigin",
+                                "value": "United Kingdom"
+                            },
+                            {
+                                "name": "dangerousGoodsRegulations",
+                                "value": "GHS"
+                            },
+                            {
+                                "name": "directions",
+                                "value": "Revolution® (Selamectin) is a prescription medication. Apply Revolution® (Selamectin) once a month on the same day of each month year round. Use the entire contents of the tube. Do not split the contents since the dose and therefore the effectiveness of the product can be reduced. Part your pet's hair at the base of the neck between the shoulder blades until you can see the skin  and  and place the tip of the tube on the skin. Apply the contents of the tube to a single spot on the skin at the base of the neck between the shoulder blades.  Apply Revolution® (Selamectin) exactly as directed by your veterinarian. If you do not understand the directions ask your pharmacist or veterinarian to explain them to you. Revolution® (Selamectin) is available as unit of use applicator tubes containing the specific amount of medication based on the weight of your pet. Revolution® (Selamectin) is available as a 15mg/0.25ml puppy/kitten dose for puppies older than 6 weeks and kittens older than 8 weeks weighing up to 5 lbs. Revolution® (Selamectin) is also available for cats 5.1-15 lbs (45mg/0.75ml)  and  15.1-22 lbs (60mg/1ml)  and  and for dogs 5.1-10 lbs (30mg/0.25ml)  and  dogs 10.1-20 lbs (60mg/0.5ml)  and  20.1-40 lbs (120mg/1 ml)  and  40-1-85 lbs (240mg/2 ml) and 85.1-130 lbs (360mg/3ml). For dogs over 130 lbs use the appropriate combination of tubes. The entire contents of the tube should be used. Do not split the contents as the accuracy of the dose and effectiveness of the medication cannot be assured. Bathing or shampooing your pet 2 or more hours after treatment will not reduce the effectiveness of Revolution® (Selamectin). Keep this medication away from children and pets.   and Chewy: The recommended minimum dose is 2.7 mg selamectin per pound (6 mg/kg) of body weight.  and  Petco: For the prevention of heartworm disease  and  Revolution must be applied monthly  and  preferably on the same date each month. Drs. Foster and Smith recommends (and our guarantee requires) that Revolution be used year round  and  although some veterinarians may recommend using it only during the mosquito season. If used seasonally  and  the first dose must be applied within 30 days of the pet's first exposure to mosquitoes. The last dose must be applied within 30 days after the pet's last exposure to mosquitoes. To control fleas  and  apply the first dose one month prior to the expected start of the flea season. Part the hair on the back of the pet at the base of the neck in front of the shoulder blades. Place the tip of the tube on the skin and squeeze the tube 3-4 times to empty the entire contents on the skin. Do not massage into skin or apply to broken skin. Do not apply when the haircoat is wet."
+                            },
+                            {
+                                "name": "externalProductID",
+                                "value": "87219034736"
+                            },
+                            {
+                                "name": "externalProductIDType",
+                                "value": "UPC"
+                            },
+                            {
+                                "name": "FDANumber",
+                                "value": "141-152"
+                            },
+                            {
+                                "name": "fulfillmentCenterShelfLifeRed1",
+                                "value": "720"
+                            },
+                            {
+                                "name": "fulfillmentCenterShelfLifeUnit",
+                                "value": "Days"
+                            },
+                            {
+                                "name": "GHSClass",
+                                "value": "Irritant"
+                            }
+                        ],
+                        "assets": [],
+                        "availability": {
+                            "isOnStock": true,
+                            "availableQuantity": 424,
+                            "version": 1,
+                            "id": "965b2406-d5f6-45e1-b32a-045d2dfb07ec"
+                        }
+                    },
+                    "variants": [],
+                    "searchKeywords": {}
+                },
+                "staged": {
+                    "name": {
+                        "en": "REVOLUTION Cat"
+                    },
+                    "categories": [
+                        {
+                            "typeId": "category",
+                            "id": "d3236fbf-fb17-4b58-a414-60c2d9d559fc"
+                        }
+                    ],
+                    "categoryOrderHints": {},
+                    "slug": {
+                        "en": "10000321_slug"
+                    },
+                    "masterVariant": {
+                        "id": 1,
+                        "sku": "10000321",
+                        "key": "REVOLUTION Cat",
+                        "prices": [],
+                        "images": [],
+                        "attributes": [
+                            {
+                                "name": "manufacturedBy",
+                                "value": "Zoetis"
+                            },
+                            {
+                                "name": "bulletPoint",
+                                "value": "Revolution kills adult fleas and prevents flea eggs from hatching for one month. It is also indicated for the prevention and control of flea infestationsand prevention of heartworm disease caused by Dirofilaria immitisand and the treatment and control of ear mite infestations. Revolution is also indicated for the treatment and control of roundworm and intestinal hookworm infections in cats. Revolution protects cats against fleasand killing adult fleas and keeping flea eggs from hatching. Unlike some other monthly flea preventatives for catsand it also provides safe protection from heartworm diseaseand roundwormsand hookworms and ear mites. Most fleas are killed within 36 hours of application. If the pet was already infested with fleas when Revolution was appliedand you may see fleas after that period of time as the immature forms of the fleas in the environment hatch."
+                            },
+                            {
+                                "name": "color",
+                                "value": "Clear"
+                            },
+                            {
+                                "name": "IsContainsLiquidContents",
+                                "value": true
+                            },
+                            {
+                                "name": "costPrice",
+                                "value": "90.7"
+                            },
+                            {
+                                "name": "countryOfOrigin",
+                                "value": "United Kingdom"
+                            },
+                            {
+                                "name": "dangerousGoodsRegulations",
+                                "value": "GHS"
+                            },
+                            {
+                                "name": "directions",
+                                "value": "Revolution® (Selamectin) is a prescription medication. Apply Revolution® (Selamectin) once a month on the same day of each month year round. Use the entire contents of the tube. Do not split the contents since the dose and therefore the effectiveness of the product can be reduced. Part your pet's hair at the base of the neck between the shoulder blades until you can see the skin  and  and place the tip of the tube on the skin. Apply the contents of the tube to a single spot on the skin at the base of the neck between the shoulder blades.  Apply Revolution® (Selamectin) exactly as directed by your veterinarian. If you do not understand the directions ask your pharmacist or veterinarian to explain them to you. Revolution® (Selamectin) is available as unit of use applicator tubes containing the specific amount of medication based on the weight of your pet. Revolution® (Selamectin) is available as a 15mg/0.25ml puppy/kitten dose for puppies older than 6 weeks and kittens older than 8 weeks weighing up to 5 lbs. Revolution® (Selamectin) is also available for cats 5.1-15 lbs (45mg/0.75ml)  and  15.1-22 lbs (60mg/1ml)  and  and for dogs 5.1-10 lbs (30mg/0.25ml)  and  dogs 10.1-20 lbs (60mg/0.5ml)  and  20.1-40 lbs (120mg/1 ml)  and  40-1-85 lbs (240mg/2 ml) and 85.1-130 lbs (360mg/3ml). For dogs over 130 lbs use the appropriate combination of tubes. The entire contents of the tube should be used. Do not split the contents as the accuracy of the dose and effectiveness of the medication cannot be assured. Bathing or shampooing your pet 2 or more hours after treatment will not reduce the effectiveness of Revolution® (Selamectin). Keep this medication away from children and pets.   and Chewy: The recommended minimum dose is 2.7 mg selamectin per pound (6 mg/kg) of body weight.  and  Petco: For the prevention of heartworm disease  and  Revolution must be applied monthly  and  preferably on the same date each month. Drs. Foster and Smith recommends (and our guarantee requires) that Revolution be used year round  and  although some veterinarians may recommend using it only during the mosquito season. If used seasonally  and  the first dose must be applied within 30 days of the pet's first exposure to mosquitoes. The last dose must be applied within 30 days after the pet's last exposure to mosquitoes. To control fleas  and  apply the first dose one month prior to the expected start of the flea season. Part the hair on the back of the pet at the base of the neck in front of the shoulder blades. Place the tip of the tube on the skin and squeeze the tube 3-4 times to empty the entire contents on the skin. Do not massage into skin or apply to broken skin. Do not apply when the haircoat is wet."
+                            },
+                            {
+                                "name": "externalProductID",
+                                "value": "87219034736"
+                            },
+                            {
+                                "name": "externalProductIDType",
+                                "value": "UPC"
+                            },
+                            {
+                                "name": "FDANumber",
+                                "value": "141-152"
+                            },
+                            {
+                                "name": "fulfillmentCenterShelfLifeRed1",
+                                "value": "720"
+                            },
+                            {
+                                "name": "fulfillmentCenterShelfLifeUnit",
+                                "value": "Days"
+                            },
+                            {
+                                "name": "GHSClass",
+                                "value": "Irritant"
+                            }
+                        ],
+                        "assets": [],
+                        "availability": {
+                            "isOnStock": true,
+                            "availableQuantity": 424,
+                            "version": 1,
+                            "id": "965b2406-d5f6-45e1-b32a-045d2dfb07ec"
+                        }
+                    },
+                    "variants": [],
+                    "searchKeywords": {}
+                },
+                "published": true,
+                "hasStagedChanges": false
+            },
+            "key": "key_10000321",
+            "lastVariantId": 1
+        },
+        {
+            "id": "324782c6-75cc-4652-bbfd-1e4e9f5430c3",
+            "version": 3,
+            "versionModifiedAt": "2023-08-28T07:12:34.268Z",
+            "lastMessageSequenceNumber": 1,
+            "createdAt": "2023-08-28T07:12:34.074Z",
+            "lastModifiedAt": "2023-08-28T07:12:34.268Z",
+            "lastModifiedBy": {
+                "isPlatformClient": true
+            },
+            "createdBy": {
+                "isPlatformClient": true
+            },
+            "productType": {
+                "typeId": "product-type",
+                "id": "2035862d-c01c-4087-9bfe-bf67254cf24f"
+            },
+            "masterData": {
+                "current": {
+                    "name": {
+                        "en": "RimadylForth"
+                    },
+                    "categories": [
+                        {
+                            "typeId": "category",
+                            "id": "d3236fbf-fb17-4b58-a414-60c2d9d559fc"
+                        }
+                    ],
+                    "categoryOrderHints": {},
+                    "slug": {
+                        "en": "10000318_slug"
+                    },
+                    "masterVariant": {
+                        "id": 1,
+                        "sku": "10000318",
+                        "key": "RimadylForth",
+                        "prices": [],
+                        "images": [],
+                        "attributes": [
+                            {
+                                "name": "manufacturedBy",
+                                "value": "Zoetis"
+                            },
+                            {
+                                "name": "bulletPoint",
+                                "value": "Rimadyl is indicated for the relief of pain and inflammation associated with osteoarthritis and for the control of postoperative pain associated with soft tissue and orthopedic surgeries in dogs."
+                            },
+                            {
+                                "name": "color",
+                                "value": "Clear"
+                            },
+                            {
+                                "name": "IsContainsLiquidContents",
+                                "value": true
+                            },
+                            {
+                                "name": "costPrice",
+                                "value": "236.7"
+                            },
+                            {
+                                "name": "countryOfOrigin",
+                                "value": "Italy"
+                            },
+                            {
+                                "name": "dangerousGoodsRegulations",
+                                "value": "GHS"
+                            },
+                            {
+                                "name": "directions",
+                                "value": "Rimadyl should be given with food to reduce the chance of stomach/intestinal side effects. Rimadyl is for dogs only. Do not give to cats. The recommended dosage for oral administration to dogs is 2 mg/lb of body weight daily or divided and administered as 1 mg/lb twice daily. For the control of postoperative pain  and  administer approximately 2 hours before the procedure. Always follow the dosage instructions provided by your veterinarian. If you have difficulty giving the medication  and  contact your veterinarian. This medication should only be given to the pet for which it was prescribed. For long-term use  and  use the lowest dose needed to provide relief."
+                            },
+                            {
+                                "name": "externalProductID",
+                                "value": "87219032893"
+                            },
+                            {
+                                "name": "externalProductIDType",
+                                "value": "UPC"
+                            },
+                            {
+                                "name": "FDANumber",
+                                "value": "141-111"
+                            },
+                            {
+                                "name": "fulfillmentCenterShelfLifeRed1",
+                                "value": "720"
+                            },
+                            {
+                                "name": "fulfillmentCenterShelfLifeUnit",
+                                "value": "Days"
+                            },
+                            {
+                                "name": "GHSClass",
+                                "value": "Toxic"
+                            }
+                        ],
+                        "assets": [],
+                        "availability": {
+                            "isOnStock": true,
+                            "availableQuantity": 434,
+                            "version": 1,
+                            "id": "142906de-f74b-42d5-b4f4-e4406d5ce00d"
+                        }
+                    },
+                    "variants": [],
+                    "searchKeywords": {}
+                },
+                "staged": {
+                    "name": {
+                        "en": "RimadylForth"
+                    },
+                    "categories": [
+                        {
+                            "typeId": "category",
+                            "id": "d3236fbf-fb17-4b58-a414-60c2d9d559fc"
+                        }
+                    ],
+                    "categoryOrderHints": {},
+                    "slug": {
+                        "en": "10000318_slug"
+                    },
+                    "masterVariant": {
+                        "id": 1,
+                        "sku": "10000318",
+                        "key": "RimadylForth",
+                        "prices": [],
+                        "images": [],
+                        "attributes": [
+                            {
+                                "name": "manufacturedBy",
+                                "value": "Zoetis"
+                            },
+                            {
+                                "name": "bulletPoint",
+                                "value": "Rimadyl is indicated for the relief of pain and inflammation associated with osteoarthritis and for the control of postoperative pain associated with soft tissue and orthopedic surgeries in dogs."
+                            },
+                            {
+                                "name": "color",
+                                "value": "Clear"
+                            },
+                            {
+                                "name": "IsContainsLiquidContents",
+                                "value": true
+                            },
+                            {
+                                "name": "costPrice",
+                                "value": "236.7"
+                            },
+                            {
+                                "name": "countryOfOrigin",
+                                "value": "Italy"
+                            },
+                            {
+                                "name": "dangerousGoodsRegulations",
+                                "value": "GHS"
+                            },
+                            {
+                                "name": "directions",
+                                "value": "Rimadyl should be given with food to reduce the chance of stomach/intestinal side effects. Rimadyl is for dogs only. Do not give to cats. The recommended dosage for oral administration to dogs is 2 mg/lb of body weight daily or divided and administered as 1 mg/lb twice daily. For the control of postoperative pain  and  administer approximately 2 hours before the procedure. Always follow the dosage instructions provided by your veterinarian. If you have difficulty giving the medication  and  contact your veterinarian. This medication should only be given to the pet for which it was prescribed. For long-term use  and  use the lowest dose needed to provide relief."
+                            },
+                            {
+                                "name": "externalProductID",
+                                "value": "87219032893"
+                            },
+                            {
+                                "name": "externalProductIDType",
+                                "value": "UPC"
+                            },
+                            {
+                                "name": "FDANumber",
+                                "value": "141-111"
+                            },
+                            {
+                                "name": "fulfillmentCenterShelfLifeRed1",
+                                "value": "720"
+                            },
+                            {
+                                "name": "fulfillmentCenterShelfLifeUnit",
+                                "value": "Days"
+                            },
+                            {
+                                "name": "GHSClass",
+                                "value": "Toxic"
+                            }
+                        ],
+                        "assets": [],
+                        "availability": {
+                            "isOnStock": true,
+                            "availableQuantity": 434,
+                            "version": 1,
+                            "id": "142906de-f74b-42d5-b4f4-e4406d5ce00d"
+                        }
+                    },
+                    "variants": [],
+                    "searchKeywords": {}
+                },
+                "published": true,
+                "hasStagedChanges": false
+            },
+            "key": "key_10000318",
+            "lastVariantId": 1
+        },
+        {
+            "id": "64c807c6-cedd-41d8-9ac9-8803e3d444b9",
+            "version": 3,
+            "versionModifiedAt": "2023-08-28T07:12:34.231Z",
+            "lastMessageSequenceNumber": 1,
+            "createdAt": "2023-08-28T07:12:34.080Z",
+            "lastModifiedAt": "2023-08-28T07:12:34.231Z",
+            "lastModifiedBy": {
+                "isPlatformClient": true
+            },
+            "createdBy": {
+                "isPlatformClient": true
+            },
+            "productType": {
+                "typeId": "product-type",
+                "id": "2035862d-c01c-4087-9bfe-bf67254cf24f"
+            },
+            "masterData": {
+                "current": {
+                    "name": {
+                        "en": "Pet Tabs Second"
+                    },
+                    "categories": [
+                        {
+                            "typeId": "category",
+                            "id": "d3236fbf-fb17-4b58-a414-60c2d9d559fc"
+                        }
+                    ],
+                    "categoryOrderHints": {},
+                    "slug": {
+                        "en": "10000276_slug"
+                    },
+                    "masterVariant": {
+                        "id": 1,
+                        "sku": "10000276",
+                        "key": "Pet Tabs Second",
+                        "prices": [],
+                        "images": [],
+                        "attributes": [
+                            {
+                                "name": "manufacturedBy",
+                                "value": "Zoetis"
+                            },
+                            {
+                                "name": "bulletPoint",
+                                "value": "Pet-Tabs Plus x 180 Tablets"
+                            },
+                            {
+                                "name": "color",
+                                "value": "Brown"
+                            },
+                            {
+                                "name": "IsContainsLiquidContents",
+                                "value": true
+                            },
+                            {
+                                "name": "costPrice",
+                                "value": "33.95"
+                            },
+                            {
+                                "name": "countryOfOrigin",
+                                "value": "United States"
+                            },
+                            {
+                                "name": "dangerousGoodsRegulations",
+                                "value": "Not Applicable"
+                            },
+                            {
+                                "name": "directions",
+                                "value": "Dogs under 20 lb - 1/2 tablet daily. Dogs over 20 lb - 1 tablet daily."
+                            },
+                            {
+                                "name": "externalProductID",
+                                "value": "87219013229"
+                            },
+                            {
+                                "name": "externalProductIDType",
+                                "value": "UPC"
+                            },
+                            {
+                                "name": "FDANumber",
+                                "value": "NA"
+                            },
+                            {
+                                "name": "fulfillmentCenterShelfLifeRed1",
+                                "value": "720"
+                            },
+                            {
+                                "name": "fulfillmentCenterShelfLifeUnit",
+                                "value": "Days"
+                            },
+                            {
+                                "name": "GHSClass",
+                                "value": "Not Applicable - Toxic - Environmentally Damaging"
+                            }
+                        ],
+                        "assets": [],
+                        "availability": {
+                            "isOnStock": true,
+                            "availableQuantity": 343,
+                            "version": 1,
+                            "id": "759f6f90-c487-4ca3-b273-ea4913badbed"
+                        }
+                    },
+                    "variants": [],
+                    "searchKeywords": {}
+                },
+                "staged": {
+                    "name": {
+                        "en": "Pet Tabs Second"
+                    },
+                    "categories": [
+                        {
+                            "typeId": "category",
+                            "id": "d3236fbf-fb17-4b58-a414-60c2d9d559fc"
+                        }
+                    ],
+                    "categoryOrderHints": {},
+                    "slug": {
+                        "en": "10000276_slug"
+                    },
+                    "masterVariant": {
+                        "id": 1,
+                        "sku": "10000276",
+                        "key": "Pet Tabs Second",
+                        "prices": [],
+                        "images": [],
+                        "attributes": [
+                            {
+                                "name": "manufacturedBy",
+                                "value": "Zoetis"
+                            },
+                            {
+                                "name": "bulletPoint",
+                                "value": "Pet-Tabs Plus x 180 Tablets"
+                            },
+                            {
+                                "name": "color",
+                                "value": "Brown"
+                            },
+                            {
+                                "name": "IsContainsLiquidContents",
+                                "value": true
+                            },
+                            {
+                                "name": "costPrice",
+                                "value": "33.95"
+                            },
+                            {
+                                "name": "countryOfOrigin",
+                                "value": "United States"
+                            },
+                            {
+                                "name": "dangerousGoodsRegulations",
+                                "value": "Not Applicable"
+                            },
+                            {
+                                "name": "directions",
+                                "value": "Dogs under 20 lb - 1/2 tablet daily. Dogs over 20 lb - 1 tablet daily."
+                            },
+                            {
+                                "name": "externalProductID",
+                                "value": "87219013229"
+                            },
+                            {
+                                "name": "externalProductIDType",
+                                "value": "UPC"
+                            },
+                            {
+                                "name": "FDANumber",
+                                "value": "NA"
+                            },
+                            {
+                                "name": "fulfillmentCenterShelfLifeRed1",
+                                "value": "720"
+                            },
+                            {
+                                "name": "fulfillmentCenterShelfLifeUnit",
+                                "value": "Days"
+                            },
+                            {
+                                "name": "GHSClass",
+                                "value": "Not Applicable - Toxic - Environmentally Damaging"
+                            }
+                        ],
+                        "assets": [],
+                        "availability": {
+                            "isOnStock": true,
+                            "availableQuantity": 343,
+                            "version": 1,
+                            "id": "759f6f90-c487-4ca3-b273-ea4913badbed"
+                        }
+                    },
+                    "variants": [],
+                    "searchKeywords": {}
+                },
+                "published": true,
+                "hasStagedChanges": false
+            },
+            "key": "key_10000276",
+            "lastVariantId": 1
+        },
+        {
+            "id": "e2dcdc81-fc13-4139-9cdf-e9c2b7d87a53",
+            "version": 7,
+            "versionModifiedAt": "2023-11-19T01:45:17.752Z",
+            "lastMessageSequenceNumber": 3,
+            "createdAt": "2023-08-28T07:12:34.079Z",
+            "lastModifiedAt": "2023-11-19T01:45:17.752Z",
+            "lastModifiedBy": {
+                "isPlatformClient": true,
+                "user": {
+                    "typeId": "user",
+                    "id": "cd0a9977-5c88-40ec-a121-4658eb6d8a63"
+                }
+            },
+            "createdBy": {
+                "isPlatformClient": true
+            },
+            "productType": {
+                "typeId": "product-type",
+                "id": "2035862d-c01c-4087-9bfe-bf67254cf24f"
+            },
+            "masterData": {
+                "current": {
+                    "name": {
+                        "en": "RimadylSecond"
+                    },
+                    "categories": [
+                        {
+                            "typeId": "category",
+                            "id": "d3236fbf-fb17-4b58-a414-60c2d9d559fc"
+                        }
+                    ],
+                    "categoryOrderHints": {},
+                    "slug": {
+                        "en": "10000316_slug"
+                    },
+                    "masterVariant": {
+                        "id": 1,
+                        "sku": "10000316",
+                        "key": "RimadylSecond",
+                        "prices": [],
+                        "images": [],
+                        "attributes": [
+                            {
+                                "name": "manufacturedBy",
+                                "value": "Zoetis"
+                            },
+                            {
+                                "name": "bulletPoint",
+                                "value": "Rimadyl is indicated for the relief of pain and inflammation associated with osteoarthritis and for the control of postoperative pain associated with soft tissue and orthopedic surgeries in dogs."
+                            },
+                            {
+                                "name": "color",
+                                "value": "clear"
+                            },
+                            {
+                                "name": "IsContainsLiquidContents",
+                                "value": true
+                            },
+                            {
+                                "name": "costPrice",
+                                "value": "192.5"
+                            },
+                            {
+                                "name": "countryOfOrigin",
+                                "value": "Italy"
+                            },
+                            {
+                                "name": "dangerousGoodsRegulations",
+                                "value": "GHS"
+                            },
+                            {
+                                "name": "directions",
+                                "value": "Rimadyl can be given as a single full dose once a day or divided in half and given twice a day. Rimadyl is available as a chewable tablet or non-chewable caplet. Rimadyl should be given with food to reduce the chance of stomach/intestinal side effects. Rimadyl is for dogs only. Do not give to cats. The recommended dosage for oral administration to dogs is 2 mg/lb of body weight daily or divided and administered as 1 mg/lb twice daily. For the control of postoperative pain  and  administer approximately 2 hours before the procedure. Always follow the dosage instructions provided by your veterinarian. If you have difficulty giving the medication  and  contact your veterinarian. This medication should only be given to the pet for which it was prescribed. For long-term use  and  use the lowest dose needed to provide relief."
+                            },
+                            {
+                                "name": "externalProductID",
+                                "value": "87219032855"
+                            },
+                            {
+                                "name": "externalProductIDType",
+                                "value": "UPC"
+                            },
+                            {
+                                "name": "FDANumber",
+                                "value": "141-111"
+                            },
+                            {
+                                "name": "fulfillmentCenterShelfLifeRed1",
+                                "value": "720"
+                            },
+                            {
+                                "name": "fulfillmentCenterShelfLifeUnit",
+                                "value": "Days"
+                            },
+                            {
+                                "name": "GHSClass",
+                                "value": "Toxic"
+                            }
+                        ],
+                        "assets": [],
+                        "availability": {
+                            "isOnStock": true,
+                            "availableQuantity": 5000,
+                            "version": 1,
+                            "id": "a9b0250d-5507-4b50-ac1f-d49ea51c8ebe"
+                        }
+                    },
+                    "variants": [],
+                    "searchKeywords": {}
+                },
+                "staged": {
+                    "name": {
+                        "en": "RimadylSecond"
+                    },
+                    "categories": [
+                        {
+                            "typeId": "category",
+                            "id": "d3236fbf-fb17-4b58-a414-60c2d9d559fc"
+                        }
+                    ],
+                    "categoryOrderHints": {},
+                    "slug": {
+                        "en": "10000316_slug"
+                    },
+                    "masterVariant": {
+                        "id": 1,
+                        "sku": "10000316",
+                        "key": "RimadylSecond",
+                        "prices": [],
+                        "images": [],
+                        "attributes": [
+                            {
+                                "name": "manufacturedBy",
+                                "value": "Zoetis"
+                            },
+                            {
+                                "name": "bulletPoint",
+                                "value": "Rimadyl is indicated for the relief of pain and inflammation associated with osteoarthritis and for the control of postoperative pain associated with soft tissue and orthopedic surgeries in dogs."
+                            },
+                            {
+                                "name": "color",
+                                "value": "clear"
+                            },
+                            {
+                                "name": "IsContainsLiquidContents",
+                                "value": true
+                            },
+                            {
+                                "name": "costPrice",
+                                "value": "192.5"
+                            },
+                            {
+                                "name": "countryOfOrigin",
+                                "value": "Italy"
+                            },
+                            {
+                                "name": "dangerousGoodsRegulations",
+                                "value": "GHS"
+                            },
+                            {
+                                "name": "directions",
+                                "value": "Rimadyl can be given as a single full dose once a day or divided in half and given twice a day. Rimadyl is available as a chewable tablet or non-chewable caplet. Rimadyl should be given with food to reduce the chance of stomach/intestinal side effects. Rimadyl is for dogs only. Do not give to cats. The recommended dosage for oral administration to dogs is 2 mg/lb of body weight daily or divided and administered as 1 mg/lb twice daily. For the control of postoperative pain  and  administer approximately 2 hours before the procedure. Always follow the dosage instructions provided by your veterinarian. If you have difficulty giving the medication  and  contact your veterinarian. This medication should only be given to the pet for which it was prescribed. For long-term use  and  use the lowest dose needed to provide relief."
+                            },
+                            {
+                                "name": "externalProductID",
+                                "value": "87219032855"
+                            },
+                            {
+                                "name": "externalProductIDType",
+                                "value": "UPC"
+                            },
+                            {
+                                "name": "FDANumber",
+                                "value": "141-111"
+                            },
+                            {
+                                "name": "fulfillmentCenterShelfLifeRed1",
+                                "value": "720"
+                            },
+                            {
+                                "name": "fulfillmentCenterShelfLifeUnit",
+                                "value": "Days"
+                            },
+                            {
+                                "name": "GHSClass",
+                                "value": "Toxic"
+                            }
+                        ],
+                        "assets": [],
+                        "availability": {
+                            "isOnStock": true,
+                            "availableQuantity": 5000,
+                            "version": 1,
+                            "id": "a9b0250d-5507-4b50-ac1f-d49ea51c8ebe"
+                        }
+                    },
+                    "variants": [],
+                    "searchKeywords": {}
+                },
+                "published": true,
+                "hasStagedChanges": false
+            },
+            "key": "key_10000316",
+            "priceMode": "Embedded",
+            "lastVariantId": 1
+        },
+        {
+            "id": "729799c5-9669-43f5-9492-cd0e888423cf",
+            "version": 3,
+            "versionModifiedAt": "2023-08-28T07:12:34.194Z",
+            "lastMessageSequenceNumber": 1,
+            "createdAt": "2023-08-28T07:12:34.079Z",
+            "lastModifiedAt": "2023-08-28T07:12:34.194Z",
+            "lastModifiedBy": {
+                "isPlatformClient": true
+            },
+            "createdBy": {
+                "isPlatformClient": true
+            },
+            "productType": {
+                "typeId": "product-type",
+                "id": "2035862d-c01c-4087-9bfe-bf67254cf24f"
+            },
+            "masterData": {
+                "current": {
+                    "name": {
+                        "en": "Pet Tabs First"
+                    },
+                    "categories": [
+                        {
+                            "typeId": "category",
+                            "id": "d3236fbf-fb17-4b58-a414-60c2d9d559fc"
+                        }
+                    ],
+                    "categoryOrderHints": {},
+                    "slug": {
+                        "en": "10000275_slug"
+                    },
+                    "masterVariant": {
+                        "id": 1,
+                        "sku": "10000275",
+                        "key": "Pet Tabs First",
+                        "prices": [],
+                        "images": [],
+                        "attributes": [
+                            {
+                                "name": "manufacturedBy",
+                                "value": "Zoetis"
+                            },
+                            {
+                                "name": "bulletPoint",
+                                "value": "Pet-Tabs Plus x 60 Tablets"
+                            },
+                            {
+                                "name": "color",
+                                "value": "Brown"
+                            },
+                            {
+                                "name": "IsContainsLiquidContents",
+                                "value": true
+                            },
+                            {
+                                "name": "costPrice",
+                                "value": "12"
+                            },
+                            {
+                                "name": "countryOfOrigin",
+                                "value": "United States"
+                            },
+                            {
+                                "name": "dangerousGoodsRegulations",
+                                "value": "Not Applicable"
+                            },
+                            {
+                                "name": "directions",
+                                "value": "Dogs under 20 lb - 1/2 tablet daily. Dogs over 20 lb - 1 tablet daily."
+                            },
+                            {
+                                "name": "externalProductID",
+                                "value": "87219013205"
+                            },
+                            {
+                                "name": "externalProductIDType",
+                                "value": "UPC"
+                            },
+                            {
+                                "name": "FDANumber",
+                                "value": "NA"
+                            },
+                            {
+                                "name": "fulfillmentCenterShelfLifeRed1",
+                                "value": "720"
+                            },
+                            {
+                                "name": "fulfillmentCenterShelfLifeUnit",
+                                "value": "Days"
+                            },
+                            {
+                                "name": "GHSClass",
+                                "value": "Not Applicable - Toxic - Environmentally Damaging"
+                            }
+                        ],
+                        "assets": [],
+                        "availability": {
+                            "isOnStock": true,
+                            "availableQuantity": 4000,
+                            "version": 1,
+                            "id": "1d302023-5359-4c61-9ed3-6c75634ec653"
+                        }
+                    },
+                    "variants": [],
+                    "searchKeywords": {}
+                },
+                "staged": {
+                    "name": {
+                        "en": "Pet Tabs First"
+                    },
+                    "categories": [
+                        {
+                            "typeId": "category",
+                            "id": "d3236fbf-fb17-4b58-a414-60c2d9d559fc"
+                        }
+                    ],
+                    "categoryOrderHints": {},
+                    "slug": {
+                        "en": "10000275_slug"
+                    },
+                    "masterVariant": {
+                        "id": 1,
+                        "sku": "10000275",
+                        "key": "Pet Tabs First",
+                        "prices": [],
+                        "images": [],
+                        "attributes": [
+                            {
+                                "name": "manufacturedBy",
+                                "value": "Zoetis"
+                            },
+                            {
+                                "name": "bulletPoint",
+                                "value": "Pet-Tabs Plus x 60 Tablets"
+                            },
+                            {
+                                "name": "color",
+                                "value": "Brown"
+                            },
+                            {
+                                "name": "IsContainsLiquidContents",
+                                "value": true
+                            },
+                            {
+                                "name": "costPrice",
+                                "value": "12"
+                            },
+                            {
+                                "name": "countryOfOrigin",
+                                "value": "United States"
+                            },
+                            {
+                                "name": "dangerousGoodsRegulations",
+                                "value": "Not Applicable"
+                            },
+                            {
+                                "name": "directions",
+                                "value": "Dogs under 20 lb - 1/2 tablet daily. Dogs over 20 lb - 1 tablet daily."
+                            },
+                            {
+                                "name": "externalProductID",
+                                "value": "87219013205"
+                            },
+                            {
+                                "name": "externalProductIDType",
+                                "value": "UPC"
+                            },
+                            {
+                                "name": "FDANumber",
+                                "value": "NA"
+                            },
+                            {
+                                "name": "fulfillmentCenterShelfLifeRed1",
+                                "value": "720"
+                            },
+                            {
+                                "name": "fulfillmentCenterShelfLifeUnit",
+                                "value": "Days"
+                            },
+                            {
+                                "name": "GHSClass",
+                                "value": "Not Applicable - Toxic - Environmentally Damaging"
+                            }
+                        ],
+                        "assets": [],
+                        "availability": {
+                            "isOnStock": true,
+                            "availableQuantity": 4000,
+                            "version": 1,
+                            "id": "1d302023-5359-4c61-9ed3-6c75634ec653"
+                        }
+                    },
+                    "variants": [],
+                    "searchKeywords": {}
+                },
+                "published": true,
+                "hasStagedChanges": false
+            },
+            "key": "key_10000275",
+            "lastVariantId": 1
+        },
+        {
+            "id": "034a74eb-ae44-4f15-9496-6620637ce02a",
+            "version": 7,
+            "versionModifiedAt": "2023-11-19T00:28:35.848Z",
+            "lastMessageSequenceNumber": 3,
+            "createdAt": "2023-08-28T07:12:34.082Z",
+            "lastModifiedAt": "2023-11-19T00:28:35.848Z",
+            "lastModifiedBy": {
+                "isPlatformClient": true,
+                "user": {
+                    "typeId": "user",
+                    "id": "cd0a9977-5c88-40ec-a121-4658eb6d8a63"
+                }
+            },
+            "createdBy": {
+                "isPlatformClient": true
+            },
+            "productType": {
+                "typeId": "product-type",
+                "id": "2035862d-c01c-4087-9bfe-bf67254cf24f"
+            },
+            "masterData": {
+                "current": {
+                    "name": {
+                        "en": "RimadylFirst",
+                        "en-US": "RimadylFirst"
+                    },
+                    "categories": [
+                        {
+                            "typeId": "category",
+                            "id": "d3236fbf-fb17-4b58-a414-60c2d9d559fc"
+                        }
+                    ],
+                    "categoryOrderHints": {},
+                    "slug": {
+                        "en": "10000317_slug"
+                    },
+                    "masterVariant": {
+                        "id": 1,
+                        "sku": "10000317",
+                        "key": "RimadylFirst",
+                        "prices": [],
+                        "images": [],
+                        "attributes": [
+                            {
+                                "name": "manufacturedBy",
+                                "value": "Zoetis"
+                            },
+                            {
+                                "name": "bulletPoint",
+                                "value": "Rimadyl is indicated for the relief of pain and inflammation associated with osteoarthritis and for the control of postoperative pain associated with soft tissue and orthopedic surgeries in dogs."
+                            },
+                            {
+                                "name": "color",
+                                "value": "Clear"
+                            },
+                            {
+                                "name": "IsContainsLiquidContents",
+                                "value": true
+                            },
+                            {
+                                "name": "costPrice",
+                                "value": "78.9"
+                            },
+                            {
+                                "name": "countryOfOrigin",
+                                "value": "Italy"
+                            },
+                            {
+                                "name": "dangerousGoodsRegulations",
+                                "value": "GHS"
+                            },
+                            {
+                                "name": "directions",
+                                "value": "Rimadyl can be given as a single full dose once a day or divided in half and given twice a day.Rimadyl is available as a chewable tablet or non-chewable caplet.Rimadyl should be given with food to reduce the chance of stomach/intestinal side effects.Rimadyl is for dogs only. Do not give to cats.The recommended dosage for oral administration to dogs is 2 mg/lb of body weight daily or divided and administered as 1 mg/lb twice daily. For the control of postoperative painand administer approximately 2 hours before the procedure.Always follow the dosage instructions provided by your veterinarian. If you have difficulty giving the medicationand contact your veterinarian. This medication should only be given to the pet for which it was prescribed. For long-term useand use the lowest dose needed to provide relief."
+                            },
+                            {
+                                "name": "externalProductID",
+                                "value": "87219032879"
+                            },
+                            {
+                                "name": "externalProductIDType",
+                                "value": "UPC"
+                            },
+                            {
+                                "name": "FDANumber",
+                                "value": "141-111"
+                            },
+                            {
+                                "name": "fulfillmentCenterShelfLifeRed1",
+                                "value": "720"
+                            },
+                            {
+                                "name": "fulfillmentCenterShelfLifeUnit",
+                                "value": "Days"
+                            },
+                            {
+                                "name": "GHSClass",
+                                "value": "Toxic"
+                            }
+                        ],
+                        "assets": [],
+                        "availability": {
+                            "isOnStock": true,
+                            "availableQuantity": 3000,
+                            "version": 1,
+                            "id": "c3b9f9c1-a6bd-4513-8bad-256979a3a244"
+                        }
+                    },
+                    "variants": [],
+                    "searchKeywords": {}
+                },
+                "staged": {
+                    "name": {
+                        "en": "RimadylFirst",
+                        "en-US": "RimadylFirst"
+                    },
+                    "categories": [
+                        {
+                            "typeId": "category",
+                            "id": "d3236fbf-fb17-4b58-a414-60c2d9d559fc"
+                        }
+                    ],
+                    "categoryOrderHints": {},
+                    "slug": {
+                        "en": "10000317_slug"
+                    },
+                    "masterVariant": {
+                        "id": 1,
+                        "sku": "10000317",
+                        "key": "RimadylFirst",
+                        "prices": [],
+                        "images": [],
+                        "attributes": [
+                            {
+                                "name": "manufacturedBy",
+                                "value": "Zoetis"
+                            },
+                            {
+                                "name": "bulletPoint",
+                                "value": "Rimadyl is indicated for the relief of pain and inflammation associated with osteoarthritis and for the control of postoperative pain associated with soft tissue and orthopedic surgeries in dogs."
+                            },
+                            {
+                                "name": "color",
+                                "value": "Clear"
+                            },
+                            {
+                                "name": "IsContainsLiquidContents",
+                                "value": true
+                            },
+                            {
+                                "name": "costPrice",
+                                "value": "78.9"
+                            },
+                            {
+                                "name": "countryOfOrigin",
+                                "value": "Italy"
+                            },
+                            {
+                                "name": "dangerousGoodsRegulations",
+                                "value": "GHS"
+                            },
+                            {
+                                "name": "directions",
+                                "value": "Rimadyl can be given as a single full dose once a day or divided in half and given twice a day.Rimadyl is available as a chewable tablet or non-chewable caplet.Rimadyl should be given with food to reduce the chance of stomach/intestinal side effects.Rimadyl is for dogs only. Do not give to cats.The recommended dosage for oral administration to dogs is 2 mg/lb of body weight daily or divided and administered as 1 mg/lb twice daily. For the control of postoperative painand administer approximately 2 hours before the procedure.Always follow the dosage instructions provided by your veterinarian. If you have difficulty giving the medicationand contact your veterinarian. This medication should only be given to the pet for which it was prescribed. For long-term useand use the lowest dose needed to provide relief."
+                            },
+                            {
+                                "name": "externalProductID",
+                                "value": "87219032879"
+                            },
+                            {
+                                "name": "externalProductIDType",
+                                "value": "UPC"
+                            },
+                            {
+                                "name": "FDANumber",
+                                "value": "141-111"
+                            },
+                            {
+                                "name": "fulfillmentCenterShelfLifeRed1",
+                                "value": "720"
+                            },
+                            {
+                                "name": "fulfillmentCenterShelfLifeUnit",
+                                "value": "Days"
+                            },
+                            {
+                                "name": "GHSClass",
+                                "value": "Toxic"
+                            }
+                        ],
+                        "assets": [],
+                        "availability": {
+                            "isOnStock": true,
+                            "availableQuantity": 3000,
+                            "version": 1,
+                            "id": "c3b9f9c1-a6bd-4513-8bad-256979a3a244"
+                        }
+                    },
+                    "variants": [],
+                    "searchKeywords": {}
+                },
+                "published": true,
+                "hasStagedChanges": false
+            },
+            "key": "key_10000317",
+            "priceMode": "Embedded",
+            "lastVariantId": 1
+        },
+        {
+            "id": "d524339a-02ab-4b65-ad73-f6ec944ef218",
+            "version": 3,
+            "versionModifiedAt": "2023-08-28T07:12:34.206Z",
+            "lastMessageSequenceNumber": 1,
+            "createdAt": "2023-08-28T07:12:34.079Z",
+            "lastModifiedAt": "2023-08-28T07:12:34.206Z",
+            "lastModifiedBy": {
+                "isPlatformClient": true
+            },
+            "createdBy": {
+                "isPlatformClient": true
+            },
+            "productType": {
+                "typeId": "product-type",
+                "id": "2035862d-c01c-4087-9bfe-bf67254cf24f"
+            },
+            "masterData": {
+                "current": {
+                    "name": {
+                        "en": "RimadylThird"
+                    },
+                    "categories": [
+                        {
+                            "typeId": "category",
+                            "id": "d3236fbf-fb17-4b58-a414-60c2d9d559fc"
+                        }
+                    ],
+                    "categoryOrderHints": {},
+                    "slug": {
+                        "en": "10000314_slug"
+                    },
+                    "masterVariant": {
+                        "id": 1,
+                        "sku": "10000314",
+                        "key": "RimadylThird",
+                        "prices": [],
+                        "images": [],
+                        "attributes": [
+                            {
+                                "name": "manufacturedBy",
+                                "value": "Zoetis"
+                            },
+                            {
+                                "name": "bulletPoint",
+                                "value": "Rimadyl is indicated for the relief of pain and inflammation associated with osteoarthritis and for the control of postoperative pain associated with soft tissue and orthopedic surgeries in dogs."
+                            },
+                            {
+                                "name": "color",
+                                "value": "Clear"
+                            },
+                            {
+                                "name": "IsContainsLiquidContents",
+                                "value": true
+                            },
+                            {
+                                "name": "costPrice",
+                                "value": "156.15"
+                            },
+                            {
+                                "name": "countryOfOrigin",
+                                "value": "Italy"
+                            },
+                            {
+                                "name": "dangerousGoodsRegulations",
+                                "value": "GHS"
+                            },
+                            {
+                                "name": "directions",
+                                "value": "Rimadyl can be given as a single full dose once a day or divided in half and given twice a day. Rimadyl is available as a chewable tablet or non-chewable caplet. Rimadyl should be given with food to reduce the chance of stomach/intestinal side effects. Rimadyl is for dogs only. Do not give to cats. The recommended dosage for oral administration to dogs is 2 mg/lb of body weight daily or divided and administered as 1 mg/lb twice daily. For the control of postoperative pain  and  administer approximately 2 hours before the procedure. Always follow the dosage instructions provided by your veterinarian. If you have difficulty giving the medication  and  contact your veterinarian. This medication should only be given to the pet for which it was prescribed. For long-term use  and  use the lowest dose needed to provide relief."
+                            },
+                            {
+                                "name": "externalProductID",
+                                "value": "87219032817"
+                            },
+                            {
+                                "name": "externalProductIDType",
+                                "value": "UPC"
+                            },
+                            {
+                                "name": "FDANumber",
+                                "value": "141-111"
+                            },
+                            {
+                                "name": "fulfillmentCenterShelfLifeRed1",
+                                "value": "720"
+                            },
+                            {
+                                "name": "fulfillmentCenterShelfLifeUnit",
+                                "value": "Days"
+                            },
+                            {
+                                "name": "GHSClass",
+                                "value": "Toxic"
+                            }
+                        ],
+                        "assets": [],
+                        "availability": {
+                            "isOnStock": true,
+                            "availableQuantity": 324,
+                            "version": 1,
+                            "id": "27724686-4a9c-4ee7-9175-a4380f23f019"
+                        }
+                    },
+                    "variants": [],
+                    "searchKeywords": {}
+                },
+                "staged": {
+                    "name": {
+                        "en": "RimadylThird"
+                    },
+                    "categories": [
+                        {
+                            "typeId": "category",
+                            "id": "d3236fbf-fb17-4b58-a414-60c2d9d559fc"
+                        }
+                    ],
+                    "categoryOrderHints": {},
+                    "slug": {
+                        "en": "10000314_slug"
+                    },
+                    "masterVariant": {
+                        "id": 1,
+                        "sku": "10000314",
+                        "key": "RimadylThird",
+                        "prices": [],
+                        "images": [],
+                        "attributes": [
+                            {
+                                "name": "manufacturedBy",
+                                "value": "Zoetis"
+                            },
+                            {
+                                "name": "bulletPoint",
+                                "value": "Rimadyl is indicated for the relief of pain and inflammation associated with osteoarthritis and for the control of postoperative pain associated with soft tissue and orthopedic surgeries in dogs."
+                            },
+                            {
+                                "name": "color",
+                                "value": "Clear"
+                            },
+                            {
+                                "name": "IsContainsLiquidContents",
+                                "value": true
+                            },
+                            {
+                                "name": "costPrice",
+                                "value": "156.15"
+                            },
+                            {
+                                "name": "countryOfOrigin",
+                                "value": "Italy"
+                            },
+                            {
+                                "name": "dangerousGoodsRegulations",
+                                "value": "GHS"
+                            },
+                            {
+                                "name": "directions",
+                                "value": "Rimadyl can be given as a single full dose once a day or divided in half and given twice a day. Rimadyl is available as a chewable tablet or non-chewable caplet. Rimadyl should be given with food to reduce the chance of stomach/intestinal side effects. Rimadyl is for dogs only. Do not give to cats. The recommended dosage for oral administration to dogs is 2 mg/lb of body weight daily or divided and administered as 1 mg/lb twice daily. For the control of postoperative pain  and  administer approximately 2 hours before the procedure. Always follow the dosage instructions provided by your veterinarian. If you have difficulty giving the medication  and  contact your veterinarian. This medication should only be given to the pet for which it was prescribed. For long-term use  and  use the lowest dose needed to provide relief."
+                            },
+                            {
+                                "name": "externalProductID",
+                                "value": "87219032817"
+                            },
+                            {
+                                "name": "externalProductIDType",
+                                "value": "UPC"
+                            },
+                            {
+                                "name": "FDANumber",
+                                "value": "141-111"
+                            },
+                            {
+                                "name": "fulfillmentCenterShelfLifeRed1",
+                                "value": "720"
+                            },
+                            {
+                                "name": "fulfillmentCenterShelfLifeUnit",
+                                "value": "Days"
+                            },
+                            {
+                                "name": "GHSClass",
+                                "value": "Toxic"
+                            }
+                        ],
+                        "assets": [],
+                        "availability": {
+                            "isOnStock": true,
+                            "availableQuantity": 324,
+                            "version": 1,
+                            "id": "27724686-4a9c-4ee7-9175-a4380f23f019"
+                        }
+                    },
+                    "variants": [],
+                    "searchKeywords": {}
+                },
+                "published": true,
+                "hasStagedChanges": false
+            },
+            "key": "key_10000314",
+            "lastVariantId": 1
+        },
+        {
+            "id": "ff40e0d7-3600-4f61-bb45-b5ebfbf6f6b0",
+            "version": 3,
+            "versionModifiedAt": "2023-08-28T07:12:34.262Z",
+            "lastMessageSequenceNumber": 1,
+            "createdAt": "2023-08-28T07:12:34.086Z",
+            "lastModifiedAt": "2023-08-28T07:12:34.262Z",
+            "lastModifiedBy": {
+                "isPlatformClient": true
+            },
+            "createdBy": {
+                "isPlatformClient": true
+            },
+            "productType": {
+                "typeId": "product-type",
+                "id": "2035862d-c01c-4087-9bfe-bf67254cf24f"
+            },
+            "masterData": {
+                "current": {
+                    "name": {
+                        "en": "REVOLUTION Pup"
+                    },
+                    "categories": [
+                        {
+                            "typeId": "category",
+                            "id": "d3236fbf-fb17-4b58-a414-60c2d9d559fc"
+                        }
+                    ],
+                    "categoryOrderHints": {},
+                    "slug": {
+                        "en": "10000320_slug"
+                    },
+                    "masterVariant": {
+                        "id": 1,
+                        "sku": "10000320",
+                        "key": "REVOLUTION Pup",
+                        "prices": [],
+                        "images": [],
+                        "attributes": [
+                            {
+                                "name": "manufacturedBy",
+                                "value": "Zoetis"
+                            },
+                            {
+                                "name": "bulletPoint",
+                                "value": "Revolution kills adult fleas and prevents flea eggs from hatching for one month. It is also indicated for the prevention and control of flea infestationsand prevention of heartworm disease caused by Dirofilaria immitisand and the treatment and control of ear mite infestations. Revolution is also indicated for the treatment and control of roundworm and intestinal hookworm infections in cats. Revolution protects cats against fleasand killing adult fleas and keeping flea eggs from hatching. Unlike some other monthly flea preventatives for catsand it also provides safe protection from heartworm diseaseand roundwormsand hookworms and ear mites. Revolution will kill the immature heartworms the pet was exposed to in the preceding month. For ear mites and sarcoptic mangeand most mites are killed with one treatmentand although a second treatment a month later may be required; follow the advice of your veterinarian. Most fleas are killed within 36 hours of application. If the pet was already infested with fleas when Revolution was appliedand you may see fleas after that period of time as the immature forms of the fleas in the environment hatch."
+                            },
+                            {
+                                "name": "color",
+                                "value": "Clear"
+                            },
+                            {
+                                "name": "IsContainsLiquidContents",
+                                "value": true
+                            },
+                            {
+                                "name": "costPrice",
+                                "value": "38.5"
+                            },
+                            {
+                                "name": "countryOfOrigin",
+                                "value": "United States"
+                            },
+                            {
+                                "name": "dangerousGoodsRegulations",
+                                "value": "GHS"
+                            },
+                            {
+                                "name": "directions",
+                                "value": "Revolution® (Selamectin) is a prescription medication. For the prevention of heartworm disease  and  Revolution must be applied monthly  and  preferably on the same date each month. Apply Revolution® (Selamectin) once a month on the same day of each month year round. Use the entire contents of the tube. Do not split the contents since the dose and therefore the effectiveness of the product can be reduced. Part your pet's hair at the base of the neck between the shoulder blades until you can see the skin  and  and place the tip of the tube on the skin. Apply the contents of the tube to a single spot on the skin at the base of the neck between the shoulder blades.  Apply Revolution® (Selamectin) exactly as directed by your veterinarian. If you do not understand the directions ask your pharmacist or veterinarian to explain them to you. Revolution® (Selamectin) is available as unit of use applicator tubes containing the specific amount of medication based on the weight of your pet. For puppies<=5 lbs in weight and at least 6 weeks of age and kittens<=5 lbs in weight and atleast 8 weeks of age"
+                            },
+                            {
+                                "name": "externalProductID",
+                                "value": "87219034712"
+                            },
+                            {
+                                "name": "externalProductIDType",
+                                "value": "UPC"
+                            },
+                            {
+                                "name": "FDANumber",
+                                "value": "141-152"
+                            },
+                            {
+                                "name": "fulfillmentCenterShelfLifeRed1",
+                                "value": "720"
+                            },
+                            {
+                                "name": "fulfillmentCenterShelfLifeUnit",
+                                "value": "Days"
+                            },
+                            {
+                                "name": "GHSClass",
+                                "value": "Irritant"
+                            }
+                        ],
+                        "assets": [],
+                        "availability": {
+                            "isOnStock": true,
+                            "availableQuantity": 43,
+                            "version": 1,
+                            "id": "4667a691-f386-4c97-b44b-f034aab04a8c"
+                        }
+                    },
+                    "variants": [],
+                    "searchKeywords": {}
+                },
+                "staged": {
+                    "name": {
+                        "en": "REVOLUTION Pup"
+                    },
+                    "categories": [
+                        {
+                            "typeId": "category",
+                            "id": "d3236fbf-fb17-4b58-a414-60c2d9d559fc"
+                        }
+                    ],
+                    "categoryOrderHints": {},
+                    "slug": {
+                        "en": "10000320_slug"
+                    },
+                    "masterVariant": {
+                        "id": 1,
+                        "sku": "10000320",
+                        "key": "REVOLUTION Pup",
+                        "prices": [],
+                        "images": [],
+                        "attributes": [
+                            {
+                                "name": "manufacturedBy",
+                                "value": "Zoetis"
+                            },
+                            {
+                                "name": "bulletPoint",
+                                "value": "Revolution kills adult fleas and prevents flea eggs from hatching for one month. It is also indicated for the prevention and control of flea infestationsand prevention of heartworm disease caused by Dirofilaria immitisand and the treatment and control of ear mite infestations. Revolution is also indicated for the treatment and control of roundworm and intestinal hookworm infections in cats. Revolution protects cats against fleasand killing adult fleas and keeping flea eggs from hatching. Unlike some other monthly flea preventatives for catsand it also provides safe protection from heartworm diseaseand roundwormsand hookworms and ear mites. Revolution will kill the immature heartworms the pet was exposed to in the preceding month. For ear mites and sarcoptic mangeand most mites are killed with one treatmentand although a second treatment a month later may be required; follow the advice of your veterinarian. Most fleas are killed within 36 hours of application. If the pet was already infested with fleas when Revolution was appliedand you may see fleas after that period of time as the immature forms of the fleas in the environment hatch."
+                            },
+                            {
+                                "name": "color",
+                                "value": "Clear"
+                            },
+                            {
+                                "name": "IsContainsLiquidContents",
+                                "value": true
+                            },
+                            {
+                                "name": "costPrice",
+                                "value": "38.5"
+                            },
+                            {
+                                "name": "countryOfOrigin",
+                                "value": "United States"
+                            },
+                            {
+                                "name": "dangerousGoodsRegulations",
+                                "value": "GHS"
+                            },
+                            {
+                                "name": "directions",
+                                "value": "Revolution® (Selamectin) is a prescription medication. For the prevention of heartworm disease  and  Revolution must be applied monthly  and  preferably on the same date each month. Apply Revolution® (Selamectin) once a month on the same day of each month year round. Use the entire contents of the tube. Do not split the contents since the dose and therefore the effectiveness of the product can be reduced. Part your pet's hair at the base of the neck between the shoulder blades until you can see the skin  and  and place the tip of the tube on the skin. Apply the contents of the tube to a single spot on the skin at the base of the neck between the shoulder blades.  Apply Revolution® (Selamectin) exactly as directed by your veterinarian. If you do not understand the directions ask your pharmacist or veterinarian to explain them to you. Revolution® (Selamectin) is available as unit of use applicator tubes containing the specific amount of medication based on the weight of your pet. For puppies<=5 lbs in weight and at least 6 weeks of age and kittens<=5 lbs in weight and atleast 8 weeks of age"
+                            },
+                            {
+                                "name": "externalProductID",
+                                "value": "87219034712"
+                            },
+                            {
+                                "name": "externalProductIDType",
+                                "value": "UPC"
+                            },
+                            {
+                                "name": "FDANumber",
+                                "value": "141-152"
+                            },
+                            {
+                                "name": "fulfillmentCenterShelfLifeRed1",
+                                "value": "720"
+                            },
+                            {
+                                "name": "fulfillmentCenterShelfLifeUnit",
+                                "value": "Days"
+                            },
+                            {
+                                "name": "GHSClass",
+                                "value": "Irritant"
+                            }
+                        ],
+                        "assets": [],
+                        "availability": {
+                            "isOnStock": true,
+                            "availableQuantity": 43,
+                            "version": 1,
+                            "id": "4667a691-f386-4c97-b44b-f034aab04a8c"
+                        }
+                    },
+                    "variants": [],
+                    "searchKeywords": {}
+                },
+                "published": true,
+                "hasStagedChanges": false
+            },
+            "key": "key_10000320",
+            "lastVariantId": 1
+        },
+        {
+            "id": "e5eeca12-3995-46be-8248-696cebb3779a",
+            "version": 4,
+            "versionModifiedAt": "2023-12-29T12:13:45.138Z",
+            "lastMessageSequenceNumber": 2,
+            "createdAt": "2023-11-19T00:37:27.172Z",
+            "lastModifiedAt": "2023-12-29T12:13:45.138Z",
+            "lastModifiedBy": {
+                "isPlatformClient": true,
+                "user": {
+                    "typeId": "user",
+                    "id": "cd0a9977-5c88-40ec-a121-4658eb6d8a63"
+                }
+            },
+            "createdBy": {
+                "isPlatformClient": true,
+                "user": {
+                    "typeId": "user",
+                    "id": "cd0a9977-5c88-40ec-a121-4658eb6d8a63"
+                }
+            },
+            "productType": {
+                "typeId": "product-type",
+                "id": "09205306-a31f-40a8-bbf4-77e920446488"
+            },
+            "masterData": {
+                "current": {
+                    "name": {
+                        "en-US": "test1"
+                    },
+                    "categories": [],
+                    "categoryOrderHints": {},
+                    "slug": {
+                        "en-US": "test1"
+                    },
+                    "metaTitle": {
+                        "de-DE": "",
+                        "en-US": ""
+                    },
+                    "metaDescription": {
+                        "de-DE": "",
+                        "en-US": ""
+                    },
+                    "masterVariant": {
+                        "id": 1,
+                        "sku": "test101",
+                        "prices": [],
+                        "images": [],
+                        "attributes": [],
+                        "assets": []
+                    },
+                    "variants": [],
+                    "searchKeywords": {}
+                },
+                "staged": {
+                    "name": {
+                        "en-US": "clothtest1"
+                    },
+                    "categories": [],
+                    "categoryOrderHints": {},
+                    "slug": {
+                        "en-US": "clothtest1",
+                        "en": "clothtest1"
+                    },
+                    "metaTitle": {
+                        "de-DE": "",
+                        "en-US": ""
+                    },
+                    "metaDescription": {
+                        "de-DE": "",
+                        "en-US": ""
+                    },
+                    "masterVariant": {
+                        "id": 1,
+                        "sku": "test101",
+                        "prices": [],
+                        "images": [],
+                        "attributes": [],
+                        "assets": []
+                    },
+                    "variants": [],
+                    "searchKeywords": {}
+                },
+                "published": false,
+                "hasStagedChanges": true
+            },
+            "priceMode": "Embedded",
+            "lastVariantId": 1
+        },
+        {
+            "id": "58873f79-e64c-456c-895e-2bfe2b1c26a5",
+            "version": 9,
+            "versionModifiedAt": "2024-01-03T18:24:48.549Z",
+            "lastMessageSequenceNumber": 4,
+            "createdAt": "2024-01-03T16:54:56.740Z",
+            "lastModifiedAt": "2024-01-03T18:24:48.549Z",
+            "lastModifiedBy": {
+                "isPlatformClient": true,
+                "user": {
+                    "typeId": "user",
+                    "id": "cd0a9977-5c88-40ec-a121-4658eb6d8a63"
+                }
+            },
+            "createdBy": {
+                "isPlatformClient": true,
+                "user": {
+                    "typeId": "user",
+                    "id": "cd0a9977-5c88-40ec-a121-4658eb6d8a63"
+                }
+            },
+            "productType": {
+                "typeId": "product-type",
+                "id": "22b107ff-60ea-423b-82e1-d456370449e0"
+            },
+            "masterData": {
+                "current": {
+                    "name": {
+                        "en-US": "test1"
+                    },
+                    "categories": [],
+                    "categoryOrderHints": {},
+                    "slug": {
+                        "en-US": "examprep1"
+                    },
+                    "metaTitle": {
+                        "de-DE": "",
+                        "en-US": ""
+                    },
+                    "metaDescription": {
+                        "de-DE": "",
+                        "en-US": ""
+                    },
+                    "masterVariant": {
+                        "id": 1,
+                        "prices": [],
+                        "images": [],
+                        "attributes": [
+                            {
+                                "name": "color",
+                                "value": "red"
+                            },
+                            {
+                                "name": "size",
+                                "value": "small"
+                            }
+                        ],
+                        "assets": []
+                    },
+                    "variants": [],
+                    "searchKeywords": {}
+                },
+                "staged": {
+                    "name": {
+                        "en-US": "test1"
+                    },
+                    "categories": [],
+                    "categoryOrderHints": {},
+                    "slug": {
+                        "en-US": "examprep1"
+                    },
+                    "metaTitle": {
+                        "de-DE": "",
+                        "en-US": ""
+                    },
+                    "metaDescription": {
+                        "de-DE": "",
+                        "en-US": ""
+                    },
+                    "masterVariant": {
+                        "id": 1,
+                        "sku": "test-1v1",
+                        "prices": [
+                            {
+                                "id": "e1569409-add4-4b44-a223-5f525a1e3890",
+                                "value": {
+                                    "type": "centPrecision",
+                                    "currencyCode": "EUR",
+                                    "centAmount": 10000,
+                                    "fractionDigits": 2
+                                },
+                                "key": "test-price"
+                            }
+                        ],
+                        "images": [],
+                        "attributes": [
+                            {
+                                "name": "color",
+                                "value": "red"
+                            },
+                            {
+                                "name": "size",
+                                "value": "small"
+                            }
+                        ],
+                        "assets": []
+                    },
+                    "variants": [
+                        {
+                            "id": 2,
+                            "sku": "test1v2",
+                            "prices": [],
+                            "images": [],
+                            "attributes": [
+                                {
+                                    "name": "color",
+                                    "value": "green"
+                                },
+                                {
+                                    "name": "size",
+                                    "value": "medium"
+                                }
+                            ],
+                            "assets": []
+                        }
+                    ],
+                    "searchKeywords": {}
+                },
+                "published": false,
+                "hasStagedChanges": true
+            },
+            "key": "test1",
+            "priceMode": "Standalone",
+            "lastVariantId": 2
+        }
+    ]
+}
